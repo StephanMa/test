@@ -1,108 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
-<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <fileDesc>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
 <titleStmt>
-<title>Drawing with explanatory text. Possibly enclosed in a letter to Anna van Gogh. London, about July 1873 - May 1874.</title>
-<editor>Leo Jansen</editor>
-<editor>Hans Luijten</editor>
-<editor>Nienke Bakker</editor>
-            </titleStmt>
+<title>"Faith is a fine invention"</title>
+<author>Emily Dickinson</author>
+<respStmt>
+<name>Jarom McDonald</name>
+<resp>Text encoding</resp>
+</respStmt>
+<respStmt>
+<name>Lara Vetter</name>
+<resp>Proofing</resp>
+</respStmt>
+</titleStmt>
 <publicationStmt>
-<publisher>
-                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
-                    <email>info@huygens.knaw.nl</email>
-                </publisher>
-<publisher>Van Gogh Museum</publisher>
-<pubPlace>Amsterdam</pubPlace>
-<date type="first" when="2009">2009</date>
-<availability status="restricted">
-<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
-<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
-                    </licence>
-                </availability>
-<ptr target="http://vangoghletters.org/orig/RM01"/>
-            </publicationStmt>
-            <sourceDesc>
-                <vg:letDesc>
-                    <vg:letIdentifier>
-<idno type="jlb">RM01</idno>
-<idno type="collectedletters"/>
-<idno type="brieven1990">-</idno>
-                    </vg:letIdentifier>
-                    <vg:letHeading>
-                        <author>Vincent van Gogh</author>
-                        <vg:addressee>Anna van Gogh</vg:addressee>
-                        <vg:placeLet>London</vg:placeLet>
-                        <vg:dateLet>about July 1873 - May 1874</vg:dateLet>
-                    </vg:letHeading>
-                    <vg:physDesc>
-                        <vg:decoration>
-                            <vg:decoList xml:id="sketches">
-                                <vg:decoItem n="A" xml:id="sketch-1">
-                                    <vg:decoDesc>
-<p>
-      <hi rend="ital">Austin Friars Church, London</hi> (<rs type="sketch" key="237">F Juv. XXV / JH -</rs>), drawing</p>
-                                    </vg:decoDesc>
-                                </vg:decoItem>
-                            </vg:decoList>
-                        </vg:decoration>
-                    </vg:physDesc>
-                    <vg:letContents>
-</vg:letContents>
-<note type="sourceStatus" xml:id="sourceStatus">
-<p>Original manuscript</p>
-                    </note>
-<note type="location" xml:id="location">
-<p>Amsterdam, Van Gogh Museum, inv. no. d405 V/1973</p>
-                    </note>
-<note type="date" xml:id="date">
-      <p>We adhere to the dating given in cat. Amsterdam 1996 (see above): about July 1873 - May 1874.</p>
-                    </note>
-                    <note type="additionalDetail" xml:id="additionalDetail">
-                        <p>On this little sheet Van Gogh made a drawing of a small church in London and wrote a few sentences about the history of the building. The following is written on the back: ‘Vincent van Gogh / gekregen van zijn zuster Mevr van Houten 1914 / J. Nieweg’ (Vincent van Gogh, received from his sister, Mrs van Houten, in 1914. J. Nieweg). The last-mentioned is Jacob Nieweg, a clergyman and – since 1914 – a painter (having been influenced by H.P. Bremmer to take up painting), living in Amersfoort. This text might indicate that the drawing was enclosed in a letter to Anna, in which case the letter is not known. Vincent might also have given Anna the sheet in person; the drawing was possibly copied from a photograph or print. See cat. Amsterdam 1996, pp. 54-55, cat. no. 6.</p>
-                    </note>
-                </vg:letDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<surface n="Sheet number 1 not found." xml:id="surf-pb-1r">
-            <graphic mimeType="image/tiff" url="VGM001001681_01.TIF" rend="norend"/>
-            <zone xml:id="zone-pb-1r-1">
-<graphic mimeType="image/tiff" url="VGM001001681_01_n.tif" rend="norend"/>
-                <graphic mimeType="image/jpeg" url="VGM001001681_01_nt.jpg" height="50px" rend="thumbnail"/>
-                <graphic mimeType="image/png" url="VGM001001681_01_nf.png" width="380px" rend="facstab"/>
-            </zone>
-</surface>
-        <surface n="d 0405 V/1973" xml:id="surf-extra-1v">
-            <graphic mimeType="image/tiff" url="VGM001001681_02.TIF" rend="norend"/>
-            <zone xml:id="zone-extra-1">
-<graphic mimeType="image/tiff" url="VGM001001681_02_n.tif" rend="norend"/>
-                <graphic mimeType="image/jpeg" url="VGM001001681_02_nt.jpg" height="50px" rend="thumbnail"/>
-                <graphic mimeType="image/png" url="VGM001001681_02_nf.png" width="380px" rend="facstab"/>
-            </zone>
-</surface>
-    </facsimile>
-    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <body>
-<div type="original" xml:lang="nl">
-<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/> <figure facs="zone-sketch-1" n="A"/>
-<vg:whiteline/>
-                <lb n="1" xml:id="l-1"/>
-<ab>Dit kerkje is een merkwaardig overblijfsel van eene oude Augustijner Stichting (<hi rend="ital">Austin friars</hi>) minstens reeds dateerende <lb n="2" xml:id="l-2"/>van het jaar 1354 zoo niet reeds een 100 jaren vroeger<c type="kp">_</c> Reeds sedert 1550 ingevolge van eene vrijwillige <lb n="3" xml:id="l-3"/>schenking van Eduard VI houdt de Nederduitsche gemeente hier hare godsdienstigee zamenkomsten.</ab>
-<vg:whiteline/>
-            </div>
-<div type="translation">
-<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
-<ab>
-                    <figure facs="zone-sketch-1" n="A"/>
-                </ab>
-<vg:whiteline/>
-<ab>This little church is a remarkable remnant of an old Augustinian foundation (<hi rend="ital">Austin Friars</hi>) dating from at least 1354, if not from 100 years earlier. The Dutch congregation had held its religious services here since 1550, by virtue of a voluntary gift of Edward VI.</ab>
-            </div>
-<div type="notes"/>
-        </body>
-    </text>
+<publisher>The Versioning Machine project</publisher>
+<availability>
+<p>This poem is available only for demonstration purposes. It was created as part of a research project to experiment with ways of displaying multiple witnesses of a TEI-encoded poem using XML, XSLT and JavaScript.</p>
+</availability>
+</publicationStmt>
+<notesStmt>
+<note type="image" anchored="true">
+<witDetail wit="#p1891" target="#p1891" place="apparatus">
+<figure>
+<graphic url="images/p1891.jpg"/>
+</figure>
+</witDetail>
+<witDetail wit="#ll227" target="#ll227" place="apparatus">
+<figure>
+<graphic url="images/ll227.jpg"/>
+</figure>
+</witDetail>
+</note>
+</notesStmt>
+<sourceDesc>
+<p>See Witness List.</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>Test document for versioning machine project. Marked-up collation of three manuscript witnesses: A 660, H 201, and H 72, and four early print witnesses: Poems (1891)--XXX, Letters (1894)--p. 191, Complete Poems (1924)--LVI, and Life and Letters (1926)--p. 227. </p>
+<p>DTD constructed from TEI prose base with tagsets for linking, figures, analysis, transcr, textcrit.</p>
+</projectDesc>
+<variantEncoding location="internal" method="parallel-segmentation"/>
+</encodingDesc>
+</teiHeader>
+<facsimile>
+<graphic xml:id="image1" url="images/cp32.jpg"/>
+</facsimile>
+<text>
+<front>
+<div>
+<listWit>
+<witness xml:id="a660">A 660, verse embedded in letter to Samuel Bowles.</witness>
+<witness xml:id="h201">H 201, fascicle version of poem.</witness>
+<witness xml:id="h72">H 72, fascicle version of poem.</witness>
+<witness xml:id="p1891">Published as poem XXX in the second volume of Todd and Higginson's <title rend="italic">Poems of Emily Dickinson</title>.</witness>
+<witness xml:id="l1894">Letter to Samuel Bowles published in Todd's edition of Dickinson's letters.</witness>
+<witness xml:id="cp32">Published as poem LVI in Martha Dickinson Bianchi's <title rend="italic">Complete Poems of Emily Dickinson</title>.</witness>
+<witness xml:id="ll227">Letter to Samuel Bowles published in Bianchi's <title rend="italic">The Life and Letters of Emily Dickinson</title>.</witness>
+</listWit>
+</div>
+</front>
+<body>
+<div1>
+<lg>
+<l n="1"><app>
+<rdg wit="#a660 #h72">"Faith"</rdg>
+<rdg wit="#h201 #l1894 #ll227">Faith</rdg>
+<rdg wit="#p1891 #cp32">FAITH</rdg>
+</app> is a fine invention</l>
+<l n="2">
+<app>
+<rdg wit="#a660 #ll227">When </rdg>
+<rdg wit="#h201 #h72 #p1891 #l1894 #cp32">For </rdg>
+</app>
+<app>
+<rdg wit="#a660 #h201 #h72">Gentlemen </rdg>
+<rdg wit="#p1891 #l1894 #cp32 #ll227">gentlemen </rdg>
+</app>
+<app>
+<rdg wit="#a660 #ll227">can </rdg>
+<rdg wit="#h201 #h72 #p1891 #l1894 #cp32">who </rdg>
+</app>
+<app>
+<rdg wit="#a660 #h201 #h72">
+<hi rend="underline">see</hi>
+</rdg>
+<rdg wit="#p1891 #l1894 #cp32 #ll227">see</rdg>
+</app>
+<app>
+<rdg wit="#h72 #ll227">!</rdg>
+<rdg wit="#a660 #h201"> -</rdg>
+<rdg wit="#p1891 #cp32">;</rdg>
+<rdg wit="#l1894">,</rdg>
+</app>
+</l>
+<l n="3"> But <app>
+<rdg wit="#h72">Microscopes</rdg>
+<rdg wit="#a660 #h201">
+<hi rend="underline">Microscopes</hi>
+</rdg>
+<rdg wit="#p1891 #l1894 #cp32 #ll227">microscopes</rdg>
+</app> are prudent</l>
+<l n="4"> In an <app>
+<rdg wit="#a660 #h201 #h72">Emergency</rdg>
+<rdg wit="#p1891 #l1894 #cp32 #ll227">emergency</rdg>
+</app> <app>
+<rdg wit="#a660 #l1894">. <pb facs="#image1" ed="l1894"/></rdg>
+<rdg wit="#h201 #h72 #p1891 #ll227 #cp32">!</rdg>
+</app></l>
+</lg>
+</div1>
+</body>
+</text>
 </TEI>
