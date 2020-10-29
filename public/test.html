@@ -10,7 +10,7 @@
     <script src="https://stephanma.github.io/test/public/scripts/CETEI.js"></script>
     <script>
       var CETEIcean = new CETEI();
-      CETEIcean.getHTML5('/data/RM01.xml', function(data) {
+      CETEIcean.getHTML5('https://stephanma.github.io/test/public/data/RM01.xml', function(data) {
         document.getElementById("TEI").innerHTML = "";
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);
