@@ -44,7 +44,7 @@ var CETEIcean = new CETEI();
             return span;
           }
         }});
-      CETEIcean.getHTML5('https://raw.githubusercontent.com/StephanMa/test/master/public/data/RM01.xml', function(data) {
+      CETEIcean.getHTML5('https://raw.githubusercontent.com/StephanMa/test/master/public/data/postzeitung_11_1632.xml', function(data) {
         document.getElementById("TEI").innerHTML = "";
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);
