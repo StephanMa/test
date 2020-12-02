@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>     
+      <fileDesc>        
+         <titleStmt>            
+            <title type="main">Titellose Zeitung (Frankfurter Postzeitung)</title> 
+            <title type="sub">Frankfurter Kayserl. Reichs-Ober-Post-Amts-Zeitung</title>
+            <editor>
+               <persName>
+                  <surname>Sutor</surname>
+                  <forename>Nadine</forename>
+               </persName>
+            </editor>  
+            <respStmt> 
+               <orgName>
+                  Bergischen Universität Wuppertal: Praxisseminar zur Quellenerschließung der Frankfurter
+                  Postzeitung (1618-1648) am Lehrstuhl für Digital Humanities, WiSe 2020/21.
+               </orgName>
+               <persName>
+                  <forename>Nadine</forename>
+                  <surname>Sutor</surname>                  
+               </persName>                
+                <resp> 
+                   <note type="remarkResponsibility">Bereitstellung der Texttranskription</note>
+                   <note type="remarkResponsibility">Text Encoding</note>
+                </resp>               
+            </respStmt>            
+            <respStmt>               
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>
+                  <ref target="https://brema.suub.uni-bremen.de/zeitungen17/periodical/titleinfo/934741">
+                     Digitale Sammlungen der Staats- und Universitätsbibliothek Bremen</ref>
+               </resp>
+               <orgName ref="http://d-nb.info/gnd/130088-X">Staats- und Universitätsbibliothek Bremen</orgName>
+               <orgName ref="http://d-nb.info/gnd/2031351-2">Bayerische Staatsbibliothek München</orgName>                 
+            </respStmt>
+         </titleStmt>   
+         <editionStmt>
+            <edition>Digitale Publikation</edition>            
+         </editionStmt>            
+         <publicationStmt>           
+            <publisher>
+               <orgName role="hostingInstitution" xml:lang="de">Staats- und Universitätsbibliothek Bremen</orgName>                 
+               <email>suub@suub.uni-bremen.de</email>
+               <address>
+                  <addrLine>Bibliothekstraße 9, 28359 Bremen</addrLine>                  
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Bremen</pubPlace>
+            <date type="publication">2014</date>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.de">
+                  <p>Public Domain Mark 1.0</p>
+                  <p>Frei zum Herunterladen. Bei einer Vervielfältigung oder Verwertung des Dokuments oder Teilen daraus ersucht die SuUB Bremen Sie im Rahmen der üblichen wissenschaftlichen Gepflogenheiten um:                     
+                     Nachricht an die besitzende Institution, Quellenangabe inklusive Angabe des Urhebers, des Standortes und des persistenten Identifiers,
+                     Zusendung eines Belegexemplares und/oder Mitteilung der Internetadresse Ihres digitalen Angebotes, in das Sie das Dokument oder Teile daraus eingebunden haben
+                  </p>
+               </licence>
+            </availability>    
+            <idno type="VD">14:703084T</idno>
+            <idno type="URLImages">https://brema.suub.uni-bremen.de/zeitungen17/periodical/thumbview/952457</idno>
+            <idno type="URN">urn:nbn:de:gbv:46:1-2249</idno>                                   
+            <idno type="PPN">779924320</idno>
+         </publicationStmt>    
+         <notesStmt>
+            <note type="remarkSource">
+               Der Bestand umfasst den Zeitraum von 1615 bis 1779, ist jedoch lückenhaft. 
+               Mit Blick auf die Publikationszeiträume ist eine Variation in dem Zeitungstitel erkennbar. Teilweise ist kein Titel überliefert.
+               Periodizität: wöchentlich, mitunter öfter. Erscheint 1632 - 1635[?] mit in d. lfd. Zählung integrierten Extra-Ausgaben.
+               Ungezählte Beil. 1627: Appendix</note>
+         </notesStmt>
+         <sourceDesc>            
+            <bibl type="J">Frankfurter Postzeitung. Frankfurt a. M., Ausg. 11, 1632.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="j" type="main">Titellose Zeitung (Frankfurter Postzeitung)</title>  
+                  <title level="j" type="sub">Frankfurter Kayserl. Reichs-Ober-Post-Amts-Zeitung</title>
+                  <editor>
+                     <persName ref="http://d-nb.info/gnd/124657788">
+                        <surname>Birghden</surname>
+                        <nameLink>von</nameLink>
+                        <nameLink>den</nameLink>
+                        <forename>Johann</forename>
+                     </persName>
+                  </editor>
+               </titleStmt>                   
+               <publicationStmt>
+                  <publisher>                  
+                     <name>v. d. Birghden</name>                   
+                  </publisher>
+                  <pubPlace>Frankfurt am Main</pubPlace> 
+                  <date type="publication">1632</date>
+               </publicationStmt>
+               <seriesStmt>                   
+                  <title level="j" type="main">11. Ordentliche Wochentliche Zeitungen. 1632.</title>
+                  <biblScope unit="volume">11</biblScope>
+                  <biblScope unit="pages">4</biblScope>                                
+               </seriesStmt>              
+            </biblFull> 
+            <msDesc>
+               <msIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>                     
+                     <p>Fraktur</p> 
+                     <p>Antiqua</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>         
+      </fileDesc>  
+     <encodingDesc>
+        <editorialDecl>
+           <p>Die Transkription erfolgte nach den unter <ref>http://www.deutschestextarchiv.de/doku/basisformat</ref>
+              formulierten Richtlinien.</p>
+           <p>Abkürzungsstriche: wie Vorlage;
+              Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): gekennzeichnet;
+              ij in Fraktur: wird zu y;
+              I/J in Fraktur: wie Vorlage;              
+              Kustoden markiert: ja;
+              langes s (&#x017F;): wie Vorlage;     
+              Seitenumbrüche markiert: ja;
+              Silbentrennung: wie Vorlage;
+              u/v bzw. U/V: wie Vorlage;
+              Vokale mit übergest. e: wie Vorlage;              
+              Zeichensetzung: wie Vorlage;
+              Zeilenumbrüche markiert: ja;
+              Zahlen; konsequent in Antiqua gesetzt;
+              Schwer bzw. nicht entzifferbare Zeichen und Auslassungen markiert: ja;</p>        
+        </editorialDecl>
+        <tagsDecl>
+           <rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition><!-- Wechsel zur Antiqua-Schrift in Fraktur-Werken-->
+           <rendition scheme="css" xml:id="et">display:block; margin-left:2em;</rendition><!-- eingerückter Text-->
+           <rendition scheme="css" xml:id="c">display:block; text-align:center</rendition><!--zentrierter Text-->
+           <rendition scheme="css" xml:id="right">display:block; text-align:right</rendition><!-- rechtsbündiger Text-->
+           <rendition scheme="css" xml:id="in">font-size:150%</rendition><!--Initiale, Schmuckinitiale-->
+           <rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition><!-- Sperrdruck-->
+        </tagsDecl>
+     </encodingDesc>     
+     <profileDesc>
+        <langUsage>
+           <language ident="deu">German</language>
+        </langUsage>  
+        <textClass>
+           <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Zeitung</classCode>
+        </textClass>
+     </profileDesc>
+  </teiHeader>  
+  <text>  
+     <body>    
+       <div type="jPoliticalNews"> 
+        <pb facs="#f0001"/> <!-- Seite 1 -->
+          <head>           
+             <title type="main"><hi rendition="#c">11. Ordentliche Wöchentliche Zeitungen. 1632.</hi></title>
+          </head>
+        <milestone rendition="#hr" unit="section"/>                                            
+              <div type="jArticle"  xml:id="wien"> 
+                 <head><hi rendition="#c">Auß Wien vom 16.26. Febr.</hi></head>   
+                 <p><hi rendition="#in">W</hi>eil die Werbungen die&#x017F;er Orthen noch &#x017F;tarck fortgehen/ &#x017F;o bekompt man<lb/>
+                    mehr volck/ als jemahlen vermeint worden/ vnnd i&#x017F;t der Herzog von Fried-<lb/>
+                    land re&#x017F;olvirt/ auff <hi rendition="#aq">vltimo Martii</hi>in der Per&#x017F;on zu Feldt zu ziehen/ der hat<lb/>
+                    nicht allein etliche Schiffwa&#x364;gen zurichten las&#x017F;&#x017F;en/ &#x017F;ondern auch vber die ge-<lb/>
+                    go&#x017F;&#x017F;ene klein und gro&#x017F;&#x017F;e Stu&#x364;ck Geschu&#x364;tz/ noch ein Anzahl fertig zumachen befohlen/<lb/> 
+                    man vermuth der Zug mo&#x364;chte naher Bo&#x364;hmen vorgenommen werden/ Ver&#x017F;chienen<lb/>
+                    Freytag hat ein Student/ welcher ohnlang&#x017F;ten einen Bildhawer er&#x017F;tochen/ ju&#x017F;tificirt<lb/>
+                    werden &#x017F;ollen/ &#x017F;o aber von dem <hi rendition="#aq">Nuncio Apostolico</hi>vnnd der allhie&#x017F;ige Vniver&#x017F;ita&#x364;t mit<lb/>
+                    der Condition erbetten worden/ daß die Studenten ins ge&#x017F;ambt obgemelten Bildhau-<lb/>
+                    wer&#x017F; Wai&#x017F;en/ wochentlich 2.fl. zu Vnderhaltung &#x017F;chaffen vnd continuiren &#x017F;ollen/ biß<lb/>
+                    die Wai&#x017F;en anderwerts ver&#x017F;orgt/ und etwas lernen mo&#x364;gen. Folgenden Tag hernach i&#x017F;t<lb/>
+                    deß Herzn Land Mar&#x017F;chalck/ Graven von Hoioß Ka&#x364;m&#x0303;erling/ von deß <hi rendition="#aq">Nuncii</hi> Diener<lb/>
+                    entleibt worde&#x0303;/ der Tha&#x364;ter aber hat &#x017F;ich/ wie man &#x017F;agt/ in ein Klo&#x017F;ter &#x017F;alvirt. Vorge&#x017F;tern<lb/>
+                    i&#x017F;t der <hi rendition="#aq">Duca di Quastal</hi> allhie Todts verfahren. Ver&#x017F;chienen Sonntag/ i&#x017F;t Herr Arnold in<lb/>
+                    R.R.M.Reichshoffrath als ein Ren&#x017F;. Ge&#x017F;andter von Jhrer Maje&#x017F;t. zum Ko&#x364;nig in <lb/>
+                    Polen ablegirt worden/ in was verrichtung/ i&#x017F;t noch der Zeit vnbewu&#x017F;t.<lb/>
+                 </p>
+                </div>                   
+              <div type="jArticle" xml:id="venedig"> 
+                 <head><hi rendition="#c">Auß Venedig vom 17. 27. Feb.</hi></head> 
+                 <p><hi rendition="#et">Von Meylandt hat man/ daß das Neapolitani&#x017F;che Volck zu Vado ankom-</hi><lb/>
+                    men/ und &#x017F;ahe an nach dem Menlendi&#x017F;chen Stado zu marchiren.<lb/>
+                    <hi rendition="#et">Der Streitt zwi&#x017F;chen Genua und Savoia wil nicht/ wie man wol gemeldt/ zum</hi><lb/>
+                    Vergleich kommen/ &#x017F;ondern werde noch viel Zeit darzn geho&#x364;ren.<lb/>
+                    <hi rendition="#et">Vber Genua hat man auß Spania/ daß der <hi rendition="#aq">Don Gonzagas di Cordua</hi>von Ma-</hi><lb/>
+                    tril nacher Niederland auffgebrochen/ dem werden <hi rendition="#aq">20000</hi>. Soldaten zugeordnet/ <lb/>
+                    zu Hu&#x364;lff deß Ren&#x017F;ers/ &#x017F;onderlich zu Erhaltung der Pfaltz/ wie auch Franckenthal zu<lb/>
+                    manteniren.<lb/>
+                    <hi rendition="#et">Man hat auß Franckreich daß der Herzog von Lottringen &#x017F;ich verobligirt/ in</hi><lb/>
+                    Per&#x017F;on mit &#x017F;eim Volck Jhrer Ko&#x364;nigl. Maje&#x017F;t. zu Dien&#x017F;t &#x017F;ich zu pr&#230;sentiren.<lb/>
+                    <hi rendition="#et">Aus Schweitz hat man, daß der Schwedi&#x017F;che Amba&#x017F;&#x017F;ator nach Lucern pa&#x017F;&#x017F;iert ei-</hi><lb/>
+                    nen neruen Tag zuhalten begere/ dann er mir der Antwort/ &#x017F;o die Catholi&#x017F;chen Schwei-<lb/>
+                    tzer auff &#x017F;eines Ko&#x364;nigs Propo&#x017F;ition gegeben/ nicht zu frieden &#x017F;eye.<lb/></p>
+              </div>                                                       
+              <div type="jArticle"  xml:id="lyon">
+                 <head><hi rendition="#c">Auß Lyon von 19.29. Feb.</hi></head>
+                 <p><hi rendition="#et">Von Pariß hat man/ daß die Ko&#x364;nigin alda wieder ankommen/ vnd werde Jhre</hi><lb/>
+                    Mag. der Cardinal auch ta&#x364;glich erwart/ mit der Werbung werde auch fort-<lb/>
+                    gefahren/ vnnd werden in Picardia die Pla&#x364;ß be&#x017F;ichtiget/ das Volck zu&#x017F;ammen zu-<lb/>
+                    fu&#x364;ren/ die Armada verharret noch bey Wetz/ vnter dem Mon&#x017F;. von Schonberg/ vnnd<lb/>
+                    <hi rendition="#aq">de la Forze</hi>.<lb/>
+                 </p>
+               </div>      
+              <div>
+                   <head><hi rendition="#c">Auß Wien vom 20. Feb. 1. Martit.</hi></head>  
+                   <p><hi rendition="#et">Der Herzog von Friedland/ hat allen Obri&#x017F;ten befohlen Jhre Regiment auff</hi><lb/>
+                 </p>
+              </div>                
+        <pb facs="#f0002"/>   <!-- Seite 2-->
+            <div>
+               <p>den letzten Mertzen complet zumachen/ will <hi rendition="#aq">100</hi>. tau&#x017F;end Mann  in  s Feld führen/ &#x017F;ollen<lb/>
+                  auch <hi rendition="#aq">1000</hi>. Co&#x017F;&#x017F;aggen im Heraußzug &#x017F;eyn/ vnd wird nit allein in Hungern vnd Gra-<lb/>
+                  baten/ auch Winden/ Gra&#x364;ß/ s&#x017F;ndern auch allhier noch &#x017F;tarck geworben/ vnd eim Sol-<lb/>
+                  daten gro&#x017F;&#x017F;es Geld auff die Hand gegeben.<lb/>
+               </p>
+              </div>    
+            <div type="jArticle"  xml:id="weserstrom"> 
+               <head><hi rendition="#c">Vom We&#x017F;er&#x017F;trom vom 23. Feb.4.Martii.</hi></head>   
+               <p><hi rendition="#et">Es berichtet ein Bott/ &#x017F;o von Braun&#x017F;chweig kommen/ als &#x017F;ollte Wolffenbu&#x364;tel</hi><lb/>
+                  vor 4. Tagen erobert &#x017F;eyn/ vber Vneinigkeit der Commendanten/ da einer dem Her-<lb/>
+                  zogen &#x017F;ol favori&#x017F;irt haben/ den erfolg/ ero&#x364;ffnet die Zeit. Selbiger Bott s&#x017F;agt auch/ daß<lb/>
+                  Peine/ Calenburg/ vnd mehr Orther eingenommen/ vnnd Steinbruck hart bela&#x364;gert/<lb/>
+                  vnd das Land zu Braun&#x017F;chweig vberall voll Kriegsvolck. Son&#x017F;ten i&#x017F;t vorige Wochen<lb/>
+                  Go&#x364;ttingen vnnd Erichsburg auch von den Weinmari&#x017F;chen vnnd Hes&#x017F;&#x017F;schen erobert.<lb/>
+                  Buxtehude &#x017F;ol auch vber &#x017F;eyn/ vnd Staade belegert. Otterberg vnnd Kottenburg hart<lb/>
+                  bea&#x364;ng&#x017F;tiget. Es will verlauten/ als &#x017F;ollte Staade von den Tvlli&#x017F;chen dem Ko&#x364;nig vom<lb/>
+                  Dennemarck abgetretten werden wo&#x364;llen. Es kompt Zeitung/ daß Jhre F. G. Land.<lb/>
+                  graff Wilhelm Paderborn wieder eingenommen/ dahero der H. Feldmar&#x017F;chalck<lb/>
+                  von Peppenheim vorge&#x017F;tern dahin auffgebrochen/ &#x017F;elbiges zu recuperiren/ warvon<lb/>
+                  bald etwas newes wu&#x364;rd zu vernehmen &#x017F;eyn/ weil der Gegentheil &#x017F;ich auch ziemlich &#x017F;tarck<lb/>
+                  allda befindet.<lb/>
+               </p>
+            </div>                   
+            <div type="jArticle" xml:id="elsaß"> 
+               <head><hi rendition="#c">Auß dem vordern El&#x017F;aß vom 26.Feb.7.Martii.</hi></head> 
+               <p><hi rendition="#et">Die&#x017F;er Orten i&#x017F;t es zimlich &#x017F;till/ es gehen doch allerhand Plackerenen auß Brie-</hi><lb/>
+                  &#x017F;ach vor. Heut kompt Bericht/ als wann deß Obri&#x017F;ten O&#x017F;&#x017F;a Volck die Statt Lahr/ &#x017F;o<lb/>
+                  Ra&#x017F;&#x017F;awi&#x017F;ch/ vber Rhein/ 4. Meil von Straßburg gantz außgeplu&#x364;ndert/ vnnd den<lb/>
+                  die Jnwohner habe&#x0303; der Sinceration getrawet. Vor wenig Tagen habe&#x0303; sie <hi rendition="#aq">500</hi>. Reichs<lb/>
+                  Thaler Brand&#x017F;chatzung gegeben/ darauff hat der O&#x017F;&#x017F;a Nachtquartier in der Statt ge-<lb/>
+                  nommen/ vnd &#x017F;ampt den &#x017F;einen &#x017F;ich &#x017F;ehr be&#x017F;cheidentlich erzeiget/ aber als &#x017F;ie wiederumb<lb/>
+                  zuru&#x364;ck ziehen wollen/ alles mit genommen. <lb/>                 
+                  <hi rendition="#et">Ben Hagenaw &#x017F;eyn etliche Schwedi&#x017F;che Compagnien ankommen/ &#x017F;o &#x017F;ich der</hi><lb/>
+                  Statt zimlich gena&#x364;hert/ die darin haben ge&#x017F;tern dapffer Fewe auff &#x017F;ie geben/ wie es heut<lb/>
+                  abgelauffen/ wu&#x364;rd man Morgen vernehmen.<lb/>              
+               </p>
+            </div>                                                       
+            <div type="jArticle"  xml:id="reinhausen">
+               <head><hi rendition="#c">Auß Reinhau&#x017F;en vom 28.Feb.9.Martii.</hi></head>
+               <p><hi rendition="#et">Ge&#x017F;tern &#x017F;eynd <hi rendition="#aq">700</hi>. Soldaten in Speyr kommen/ haben al&#x017F;o nunmehr alle Pro-</hi><lb/>
+                  curatores/ Advocaten und Gei&#x017F;tlichen Soldaten/ man i&#x017F;t dern noch mehr gewertig/ wie<lb/>
+                  auch <hi rendition="#aq">400</hi>. Reuter.<lb/>
+                  <hi rendition="#et">Die Franckenthaler &#x017F;treiffen gar &#x017F;ehr auß/ haben Zu&#x364;rckheim/ Darm&#x017F;tein vnnd</hi><lb/>
+                  andere Ort außgeplündert. Die Philipsburger &#x017F;eynd ge&#x017F;tern in der Nacht gen&#x017F;eits<lb/>
+                  Rheins gewe&#x017F;en/ vnd den Hoff Mechter&#x017F;heim/ Heiligen&#x017F;tein vnd Lengenfeld &#x017F;o nur ein<lb/>
+                  Meil von Speyr/ außgeplu&#x364;ndert/ <hi rendition="#aq">100</hi>.stu&#x364;ck Vieht/ vnnd wie man &#x017F;agt/ auch vber <hi rendition="#aq">200</hi>.<lb/>
+                  Ha&#x364;mel mit genom&#x0303;en. Ge&#x017F;tern hat man <hi rendition="#aq">10</hi>. Bawren von Laudenburg/ welche die Statt<lb/>
+                  Speyr in Brandt &#x017F;tecken wo&#x364;llen/ auch den Franckenthalern vnnd Philipsburgern &#x017F;ol-<lb/>
+                  ches avi&#x017F;irt/&#x017F;ampt dem Schreiben gefangenin in Speyr gebracht/ wie es ihnen ergehen<lb/>
+                  wird/ &#x017F;tehet zuerwarten/ es liegen gar viel Speonen allda gefangen/ &#x017F;o bald H. Obri&#x017F;ter<lb/>
+                  Horneck ankompt/ wird man exequiren.<lb/>         
+               </p>
+            </div>    
+        <pb facs="#f0003"/> <!--  Seite 3--> 
+            <div type="jArticle"  xml:id="haag"> 
+               <head><hi rendition="#c">Auß dem Haag vom 27.Febr.8.Martii.</hi></head>   
+               <p><hi rendition="#et">Allhier gehet man &#x017F;tarck zu Rath/ wie die See von den Du&#x364;nkirchern in etwas</hi><lb/>
+                  mo&#x364;chte befreyet werden/ weil &#x017F;ie je lenger je mehr viel Schaden vnd die Hollend. Orz-<lb/>
+                  log&#x017F;chiff hinweg nehmen thun/ Jnma&#x017F;&#x017F;e &#x017F;ie ohnla&#x364;ng&#x017F;t 3. von den&#x017F;elben erobert ha-<lb/>
+                  ben. Es &#x017F;ollen <hi rendition="#aq">30</hi>. Kriegs&#x017F;chiff mehr verfertigt vnnd mit guten Capitainen ver&#x017F;ehen<lb/>
+                  werden/ warzu die <hi rendition="#aq">Trafficquanten</hi> zur See ein ziemlichs anerbieten thun.<lb/>
+                  <hi rendition="#et">Es befinden &#x017F;ich viel Kriegsofficirer allhier/ vnnd will verlauten als &#x017F;ollten etlich</hi><lb/>
+                  <hi rendition="#aq">1000</hi>. Mann vor auß auff eine Jmpre&#x017F;&#x017F;a vortge&#x017F;chickt werden/ denen Jh. Exel. bald<lb/>
+                  folgen mo&#x364;chten mit der gantzen Armee.<lb/>
+                  <hi rendition="#et">Jn Flandern i&#x017F;t vunder den Sta&#x364;nden gro&#x017F;&#x017F;e Schwu&#x364;rigkeit/ weil &#x017F;ie &#x017F;elbst &#x017F;ehen daß</hi><lb/>
+                  &#x017F;ie &#x017F;o vbel von der Jnfantin be&#x017F;chu&#x364;tzt werden. Zween Deputirte von der Statt Lu&#x364;ttich<lb/>
+                  &#x017F;eynd anhero kommen/ geben vor/ &#x017F;olle wegen der Repre&#x017F;&#x017F;alien &#x017F;eyn / &#x017F;o wieder &#x017F;elbige<lb/>
+                  Statt allhier außgewu&#x364;rckt werden/ &#x017F;o man aber vermeint/ &#x017F;ollen &#x017F;ie vnder diesem Pr&#xE6;-<lb/>
+                  text was ander&#x017F;t tractiren wollen/ &#x017F;o die Zeit ero&#x364;ffnen wird.<lb/>                 
+               </p>
+            </div>                   
+            <div type="jArticle" xml:id="franken_1"> 
+               <head><hi rendition="#c">Auß Francken vom 27.Febr.8.Martii.</hi></head> 
+               <p><hi rendition="#et">Nachdem Gener. Tilly den 22. diß von Newmarck nach Altorff kommen/ Quartir</hi><lb/>
+                  begert/ &#x017F;o endlich/ weil man nit ander&#x017F;t geko&#x364;nnt/ verwilligt/ darvff neben Obr. Altringer<lb/>
+                  Cronberger/ vnd andern fu&#x364;rnehmen Officirern ins Schloß geritten/ vnd wenig Sol-<lb/>
+                  daten im Sta&#x364;ttelein geblieben/ welche den Bu&#x364;rgern viel weniger den Profe&#x017F;&#x017F;orn vnnd<lb/>
+                  Studenten kein vberla&#x017F;t gethan/ die andere Armee Pagagi/ vnnd 22. Stu&#x364;ck &#x017F;eyn theils<lb/>
+                  durch das Sta&#x364;ttlein/ theils nebenhin marchirt/ deß andern Tages/ nach dem er &#x017F;ich ge-<lb/>
+                  gen der Vniver&#x017F;itet alles gutes erbotten/ wider fort nach Lauff auffgebrochen/ Seiter<lb/>
+                  hat man/ daß ermit der Leibguardi bereit in. Forchheim kom&#x0303;en/ <gap unit="words" quantity="2" reason="lost"/>Volck im Mar-<lb/>
+                  graffthumb vnd dahervmb gro&#x017F;&#x017F;en Schaden thue.<lb/>                        
+               </p>
+            </div>                                                       
+            <div type="jArticle"  xml:id="franken_2">
+               <head><hi rendition="#c">Auß Francken vom 28.Febr.9.Martii.</hi></head>
+               <p><hi rendition="#et">Herz Gener. Tilly i&#x017F;t in Per&#x017F;on in Forchheim angelangt/ vnnd de&#x017F;&#x017F;en Armee in</hi><lb/>
+                  <hi rendition="#aq">20000</hi>. &#x017F;tarck/ darunder vber <hi rendition="#aq">8000</hi>. Banri&#x017F;ch Außschuß/ &#x017F;o vnder die Regimenter ver-<lb/>
+                  theilt worden/ deme folgen noch in <hi rendition="#aq">8000</hi>. Außschuß auch anders geworbenes Volck<lb/>
+                  hernach/ hat zu Altorff/ Lauff vnnd dero Orthen Be&#x017F;atzung hinderla&#x017F;&#x017F;en/ damit keine<lb/>
+                  Plu&#x364;nderung vom nachziehenden Volck ge&#x017F;chehe/ der Herz Feldmar&#x017F;chalck Horn &#x017F;terckt<lb/>
+                  &#x017F;ich auch &#x017F;ehr/ werden auß Mangel Futteraglein ander bald &#x017F;chmei&#x017F;&#x017F;en mu&#x364;&#x017F;&#x017F;en.<lb/>                 
+               </p>               
+            </div> 
+            <div type="jArticle"  xml:id="franken_3">
+               <head><hi rendition="#c">Auß Francken vom 2.12.Martii.</hi></head>
+               <p><hi rendition="#et">Gleich komp wider einer/ &#x017F;o ge&#x017F;tern Mittags auß Bamberg gangen/ ber referirt</hi><lb/>
+                  daß nach dem Mittwochs der Feldmar&#x017F;chalck Horn &#x017F;ich mit dem Volck vnd Geschu&#x364;tz<lb/>
+                  mit guter manir auß Bamberg reterirt/ were darauff zu Nachts Gener. Tilly dahin<lb/>
+                  kommen/ vnd vber <hi rendition="#aq">100</hi>. Mann nit geblieben au&#x017F;&#x017F;er deß vorigen Scharmu&#x364;tzels da bey-<lb/>
+                  dar&#x017F;eits ziemlich viel/ auch vnder andern auff der Tilly&#x017F;chen Seiten der Graff von<lb/> 
+                  Sultz geblieben.<lb/>                  
+               </p>
+            </div>
+            <div type="jArticle"  xml:id="franken_4">
+               <head><hi rendition="#c">Auß Francken vom 3.13.Martii.</hi></head>
+               <p>Durch den vnver&#x017F;eh<gap reason="lost" unit="chars" quantity="1"/>nen Einfall deß Herzn Gener. Tilly/ zu Bamberg/ haben<lb/>
+                  etliche Schwedi&#x017F;che Regim<gap reason="lost" unit="chars" quantity="1"/>nter/ &#x017F;onderlich das Fußvolck zwar eingebu&#x364;&#x017F;t/ es i&#x017F;t aber<lb/>
+                  <fw place="bottom" type="catch">
+                     <hi rendition="#right">nie &#x017F;o</hi>
+                  </fw>                                   
+               </p>
+            </div>
+         <pb facs="#f0004"/><!-- Seite 4 -->
+            <div>                 
+               <p>nie &#x017F;o arg als außgeben worden/ von Obr. i&#x017F;t Herz Graff von Solms ins Knie ge&#x017F;chos-<lb/>
+                  &#x017F;en/ aber nit to&#x364;dlich/ Obr. Wildenstein aber/ vnnd &#x017F;ein Obri&#x017F;ter Leutenant gefangen/ die<lb/>
+                  Stu&#x364;ck vnd Pagagi meist salvirt worden/ vnnd nach dem Herz Gener. Freldmac&#x017F;chalck<lb/>
+                  Horn/ das Volck in vnd vmb Straßfurt wider ge&#x017F;amblet/ auch was weiter gegangen/ zu<lb/>
+                  ru&#x364;ck commandirt/ haben Jhre Exc. durch Kund&#x017F;chafft vernommen/ daß die Blanck-<lb/>
+                  hor&#x017F;t - vnnd Werodi&#x017F;che Regimenter in ihren Quartiren/ di&#x017F;&#x017F;eits Bamberg in einem<lb/>
+                  Dorff &#x017F;icher gelegen/ vnd vngeacht die Crabaten zwischen &#x017F;elbigen/ vnd Haßfurter quar-<lb/>
+                  tirt gewe&#x017F;en/ al&#x017F;o die&#x017F;elben ligen la&#x017F;&#x017F;en/ vnnd auff ermelte 2. Regimente zu gangen/ die-<lb/>
+                  &#x017F;elbe vberfallen/ ge&#x017F;chlagen/ vier Standarden erobert/ vnnd das Dorff in Brand ge-<lb/>
+                  steckt/ nacher die Crabaten auch angegriffen/ welche zwar accordiren wo&#x364;llen/ aber weil<lb/>
+                  es lang&#x017F;am hergangen/ das Dorff auch in Brand ge&#x017F;etzt worden/ es &#x017F;ollen bereits in<lb/>
+                  <hi rendition="#aq">500</hi>. Crabaten vmbkommen &#x017F;eyn/ wie auch Graff von Sultz. Jetzt wird außgeben<lb/>
+                  Obri&#x017F;ter Wilden&#x017F;tein &#x017F;eyne auch ge&#x017F;torben/ vnd &#x017F;olle Bamberg nunmehr der Soldate&#x017F;-<lb/>
+                  capreiß gegeben werden/ weil die Bu&#x364;rger verza&#x364;theri&#x017F;ch gehandlet haben &#x017F;ollen.<lb/>                 
+               </p>
+            </div>                   
+            <div type="jArticle" xml:id="köln"> 
+               <head><hi rendition="#c">Auß Co&#x364;lln vom 4.14.Martii.</hi></head> 
+               <p><hi rendition="#et">Man hat Aui&#x017F;o/ daß Herzn Graff Ern&#x017F;tens zu J&#x017F;enburg Neuwgeworbene</hi><lb/>
+                  Reuter/ &#x017F;o an den Hachenburgi&#x017F;chen Gra&#x364;ntzen/ in den Ambte&#x0303; Altenwedt/ Neuenberg/ <lb/>
+                  und dahervmb gelegen/ &#x017F;eynt ge&#x017F;tern auffgebrochen/ vnnd nach dem Rhein marchirt/<lb/>
+                  wohin ferzner gibt die Zeit.<lb/>
+                  <hi rendition="#et">Zu Siegen in Statt vnnd Land haben Graff Moritz vnd Henrich Gebru&#x364;der zu</hi><lb/>
+                  Na&#x017F;&#x017F;au/ den 25.Febr.4.Martii Huldigung eingenommen/ die Je&#x017F;uiter/ vnnd Gei&#x017F;t-<lb/>
+                  lichen fortge&#x017F;chickt/ vnd reformirt/ der Ambtmann wird in Verhafft gehalten/ &#x017F;olle den<lb/>
+                  Leuten/ was <supplied cert="low">er ihnen abgenommen</supplied>/ re&#x017F;tituiren.<lb/>
+                  <hi rendition="#et">Vmb Ma&#x017F;tricht vnd deren Orten ver&#x017F;amblen  &#x017F;ich die Spani&#x017F;chen &#x017F;tarck/ hie&#x017F;ige</hi><lb/>
+                  Statt wird je mehr vnd mehr fortificirt/ Gott gebe frieden.<lb/>
+               </p>
+            </div>                                                       
+            <div type="jArticle"  xml:id="frankfurt">
+               <head><hi rendition="#c">Auß Franckfurt vom 8.18.Febr.</hi></head>
+               <p><hi rendition="#et">Verwichenen Samb&#x017F;tag i&#x017F;t die Ko&#x364;n.May.zu Schweden naher Meinz verrei&#x017F;t/</hi><lb/>
+                  vnnd Sontags zu Ho&#x364;chst wider ankommen/ Montags Jhre marche auff Steinheim<lb/>
+                  genommen/ vnd vorge&#x017F;tern Rendevous zu A&#x017F;chaffenburg gehalten. So i&#x017F;t auch ver-<lb/>
+                  wichenen Montag der Major deß Weymari&#x017F;chen Regiments Wolfart Hall/ welcher<lb/>
+                  vor Creutzenach erscho&#x017F;&#x017F;en worden/ allhier in der Kirchen S. Cathain&#xE6; &#x017F;olenniter be-<lb/>
+                  graben worden.<lb/>          
+                  <hi rendition="#et">Jhr. May. die Ko&#x364;nigin i&#x017F;t Sontags naher Ho&#x364;g&#x017F;t gefahren/ Montags wider</hi><lb/>
+                  allhier durch/ vnd naher Steinheim vnd A&#x017F;chaffenburg &#x017F;ich erhebt/ vnd ge&#x017F;tern Abends<lb/>
+                  wider allhier angelangt.<lb/>
+                  <hi rendition="#et">Montags i&#x017F;t Pfaltzgraff Ludwig Philips Fu&#x364;r&#x017F;tl. Gn. <hi rendition="#aq">per posta</hi>zu der Ko&#x364;n.May.<lb/>  </hi>             
+                  zu Schweden verzei&#x017F;t/ So i&#x017F;t Jhre Ko&#x364;nigl. May. von Bo&#x364;heim vorge&#x017F;tern der Ko&#x364;nigl-<lb/>
+                  Schwedi&#x017F;chen Armee auch gefolgt/ dero mache hinauffwarts nach dem Stifft Bam-<lb/>
+                  berg gehet. Vergangene Woch hat &#x017F;ich Am&#x153;neburg den He&#x017F;&#x017F;ische&#x0303; mit Accord ergeben/<lb/>
+                  die Soldaten haben &#x017F;ich mehrentheils vndergestelt/ Jngleichem das Ve&#x017F;te Hauß<lb/>
+                  Braunfelß/ vnd ziehen die Spani&#x017F;chen mit Sack vnd Pack ab.<lb/>
+                  <hi rendition="#c #g">ENDE</hi>.<lb/>
+               </p>               
+            </div>            
+         </div>
+      </body>         
+  </text>
+</TEI>
