@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="postzeitung.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>     
+      <fileDesc>        
+         <titleStmt>            
+            <title type="main">Frankfurter Postzeitung, Jahrgang 1619, 13</title> <!-- unser Titel, den wir der Zeitung geben und den wir individuell
+                                                                                       für jede Ausgabe anpassen müssen -->        
+            <editor>
+               <persName ref="http://d-nb.info/gnd/135774314">
+                  <surname>Weyrauch</surname>
+                  <forename>Jonas</forename>
+               </persName>
+            </editor>  
+            <respStmt> 
+               <orgName>
+                  Bergische Universität Wuppertal: Praxisseminar zur Quellenerschließung der Frankfurter
+                  Postzeitung (1618-1648) am Lehrstuhl für Digital Humanities, WiSe 2020/21.
+               </orgName>
+               <persName>
+                  <forename>Jonas</forename>
+                  <surname>Weyrauch</surname>                  
+               </persName>                
+                <resp> 
+                   <note type="remarkResponsibility">Bereitstellung der Texttranskription</note>
+                   <note type="remarkResponsibility">Text Encoding</note>
+                </resp>               
+            </respStmt>            
+            <respStmt>               
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>
+                  <ref target="https://brema.suub.uni-bremen.de/zeitungen17/periodical/titleinfo/934741">
+                     Digitale Sammlungen der Staats- und Universitätsbibliothek Bremen</ref>
+               </resp>
+               <orgName ref="http://d-nb.info/gnd/130088-X">Staats- und Universitätsbibliothek Bremen</orgName>
+               <orgName ref="http://d-nb.info/gnd/2031351-2">Bayerische Staatsbibliothek München</orgName>                 
+            </respStmt>
+         </titleStmt>   
+         <editionStmt>
+            <edition>Digitale Publikation</edition>            
+         </editionStmt>            
+         <publicationStmt>           
+            <publisher>
+               <orgName role="project" xml:lang="de">Praxisseminar Quellenerschließung</orgName>                 
+               <email>sahle@uni-wuppertal.de</email>
+               <address>
+                  <addrLine>Gaußstr. 20, 42119 Wuppertal</addrLine>                  
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Wuppertal</pubPlace>
+            <date type="publication">2020</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/3.0/de/">
+                  <p>Creative Commons - Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE)</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
+                     Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung besonders.                     
+                     Weitergabe unter gleichen Bedingungen — Wenn Sie das Material remixen, verändern oder anderweitig direkt darauf aufbauen, 
+                     dürfen Sie Ihre Beiträge nur unter derselben Lizenz wie das Original verbreiten.
+                  </p>
+               </licence>
+            </availability>     
+              <idno></idno>           
+         </publicationStmt>    
+         <notesStmt>
+            <note type="remarkSource">
+               Der Bestand der Frankfurter Postzeitung umfasst den Zeitraum von 1615 bis 1779, ist jedoch lückenhaft. 
+               Mit Blick auf die Publikationszeiträume ist eine Variation in dem Zeitungstitel erkennbar. Teilweise ist kein Titel überliefert.
+               Periodizität: wöchentlich, mitunter öfter. Erscheint 1632 - 1635[?] mit in d. lfd. Zählung integrierten Extra-Ausgaben.
+               Ungezählte Beil. 1627: Appendix</note>
+         </notesStmt>
+         <sourceDesc>            
+            <bibl type="J">Frankfurter Postzeitung. Frankfurt a. M., Ausg. 13, 1619.</bibl> <!-- bitte an die einzeln Ausgabe anpassen -->
+            <biblFull>
+               <titleStmt>
+                  <title level="j" type="main">Titellose Zeitung (Frankfurter Postzeitung)</title>  
+                  <title level="j" type="sub">Frankfurter Kayserl. Reichs-Ober-Post-Amts-Zeitung</title>
+                  <editor>
+                     <persName ref="http://d-nb.info/gnd/124657788">
+                        <surname>Birghden</surname>
+                        <nameLink>von den</nameLink>                        
+                        <forename>Johann</forename>
+                     </persName>
+                  </editor>
+               </titleStmt>    
+               <extent>
+                  <measure type="pages">4, ungefähr DIN A 5</measure>
+               </extent>               
+               <publicationStmt>
+                  <publisher>                  
+                     <name></name>                   
+                  </publisher>
+                  <pubPlace>Frankfurt am Main</pubPlace> 
+                  <date type="publication">1619</date>         <!-- bitte anpassen -->       
+               </publicationStmt>
+               <seriesStmt>                   
+                  <title level="j" type="main">Ordentliche Wochentliche Zeitungen</title>                 
+                  <biblScope unit="volume">13</biblScope>      <!-- bitte anpassen -->
+                  <biblScope unit="pages">4</biblScope>                                
+               </seriesStmt>              
+            </biblFull> 
+            <msDesc>
+               <msIdentifier>
+                  <repository>Staats- und Universitätsbibliothek Bremen (SuUB)</repository>                  
+                  <idno type="VD">14:703084T</idno>
+                  <idno type="URLCatalogue">http://katalog.suub.uni-bremen.de/DB=1/CLK?IKT=12&amp;TRM=779924320</idno>                                                    
+                  <idno type="PPN">779924320</idno>                  
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc>                      
+                     <p>Fraktur</p> 
+                     <p>Antiqua</p>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>         
+      </fileDesc>  
+     <encodingDesc>
+        <editorialDecl>
+           <p>Die Transkription erfolgte nach den unter <ref>http://www.deutschestextarchiv.de/doku/basisformat</ref>
+              formulierten Richtlinien.</p>
+           <p>Abkürzungsstriche: wie Vorlage;
+              Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): gekennzeichnet;              
+              I/J in Fraktur: wie Vorlage;              
+              langes s (&#x017F;): wie Vorlage;     
+              Seitenumbrüche markiert: ja;
+              Silbentrennung: wie Vorlage;
+              u/v bzw. U/V: wie Vorlage;
+              Vokale mit übergest. e: wie Vorlage;              
+              Zeichensetzung: wie Vorlage (Bindestrich als Gleichheitszeichen);
+              Zeilenumbrüche markiert: ja;
+              Zahlen; konsequent in Antiqua gesetzt;
+              Schwer bzw. nicht entzifferbare Zeichen und Auslassungen markiert: durch Fragezeichen markiert;</p>        
+        </editorialDecl>
+        <tagsDecl>
+           <rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition><!-- Wechsel zur Antiqua-Schrift in Fraktur-Werken-->
+           <rendition scheme="css" xml:id="et">display:block; margin-left:2em;</rendition><!-- eingerückter Text-->
+           <rendition scheme="css" xml:id="c">display:block; text-align:center</rendition><!--zentrierter Text-->
+           <rendition scheme="css" xml:id="right">display:block; text-align:right</rendition><!-- rechtsbündiger Text-->
+           <rendition scheme="css" xml:id="in">font-size:300%</rendition><!--Initiale, Schmuckinitiale-->
+           <rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition><!-- Sperrdruck-->
+           <rendition scheme="css" xml:id="b">font-weight: bold</rendition><!-- Fettdruck-->
+        </tagsDecl>
+     </encodingDesc>     
+     <profileDesc>
+        <langUsage>
+           <language ident="deu">German</language>
+        </langUsage>  
+        <textClass>
+           <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Zeitung</classCode>
+        </textClass>
+     </profileDesc>
+  </teiHeader>  
+   <facsimile xml:id='facs_49'>
+      <surface ulx='0' uly='0' lrx='1351' lry='2136'>
+         <graphic url='936851.jpg' width='1351px' height='2136px'/>
+         <zone points='72,35 72,2054 1325,2054 1325,35' rendition='TextRegion' xml:id='facs_49_r1'>
+            <zone points='662,122 679,125 685,122 693,127 707,120 713,123 728,114 732,119 745,120 746,98 735,98 715,81 707,82 698,72 684,80 675,71 664,72' rendition='Line' xml:id='facs_49_r1l2'/>
+            <zone points='362,186 1029,179 1017,111 363,112' rendition='Line' xml:id='facs_49_r1l3'/>
+            <zone points='186,230 1182,233 1321,223 1321,177 186,188' rendition='Line' xml:id='facs_49_r1l4'/>
+            <zone points='174,300 211,271 1311,273 1322,231 173,210' rendition='Line' xml:id='facs_49_r1l5'/>
+            <zone points='216,320 1322,312 1288,268 216,271' rendition='Line' xml:id='facs_49_r1l6'/>
+            <zone points='66,361 1316,357 1300,315 66,317' rendition='Line' xml:id='facs_49_r1l7'/>
+            <zone points='67,404 1324,412 1314,356 67,361' rendition='Line' xml:id='facs_49_r1l8'/>
+            <zone points='68,462 1129,450 1109,406 68,405' rendition='Line' xml:id='facs_49_r1l9'/>
+            <zone points='114,488 1314,503 1314,434 113,447' rendition='Line' xml:id='facs_49_r1l10'/>
+            <zone points='74,537 1318,537 1318,497 1244,484 74,490' rendition='Line' xml:id='facs_49_r1l11'/>
+            <zone points='68,579 1325,598 1325,538 1267,535 68,535' rendition='Line' xml:id='facs_49_r1l12'/>
+            <zone points='69,634 126,622 454,635 547,624 547,588 512,578 444,589 69,579' rendition='Line' xml:id='facs_49_r1l13'/>
+            <zone points='112,667 1325,667 1292,620 940,603 112,623' rendition='Line' xml:id='facs_49_r1l14'/>
+            <zone points='73,714 1314,722 1314,668 73,654' rendition='Line' xml:id='facs_49_r1l15'/>
+            <zone points='74,801 1322,797 1242,756 74,764' rendition='Line' xml:id='facs_49_r1l17'/>
+            <zone points='79,844 1316,854 1302,799 79,803' rendition='Line' xml:id='facs_49_r1l18'/>
+            <zone points='71,888 1322,896 1295,844 71,842' rendition='Line' xml:id='facs_49_r1l19'/>
+            <zone points='65,936 1321,936 1321,896 1269,891 65,887' rendition='Line' xml:id='facs_49_r1l20'/>
+            <zone points='71,975 1316,982 1302,931 71,936' rendition='Line' xml:id='facs_49_r1l21'/>
+            <zone points='71,1025 1321,1027 1321,981 1243,975 71,975' rendition='Line' xml:id='facs_49_r1l22'/>
+            <zone points='71,1066 1324,1066 1268,1022 71,1025' rendition='Line' xml:id='facs_49_r1l23'/>
+            <zone points='65,1110 1325,1117 1297,1066 65,1069' rendition='Line' xml:id='facs_49_r1l24'/>
+            <zone points='70,1150 1323,1161 1281,1109 70,1108' rendition='Line' xml:id='facs_49_r1l25'/>
+            <zone points='66,1191 825,1224 1333,1198 1333,1162 1260,1151 66,1152' rendition='Line' xml:id='facs_49_r1l26'/>
+            <zone points='74,1243 759,1247 759,1204 676,1192 74,1197' rendition='Line' xml:id='facs_49_r1l27'/>
+            <zone points='456,1289 939,1290 939,1251 830,1223 758,1249 456,1236' rendition='Line' xml:id='facs_49_r1l28'/>
+            <zone points='107,1334 1319,1337 1319,1299 1133,1263 835,1298 108,1277' rendition='Line' xml:id='facs_49_r1l29'/>
+            <zone points='83,1379 1321,1389 1305,1336 83,1326' rendition='Line' xml:id='facs_49_r1l30'/>
+            <zone points='68,1428 1054,1433 1108,1428 1109,1391 68,1376' rendition='Line' xml:id='facs_49_r1l31'/>
+            <zone points='111,1451 1223,1480 1281,1472 1282,1397 1126,1434 111,1420' rendition='Line' xml:id='facs_49_r1l32'/>
+            <zone points='71,1517 1237,1528 1302,1523 1303,1473 71,1462' rendition='Line' xml:id='facs_49_r1l33'/>
+            <zone points='64,1545 1317,1567 1317,1514 1173,1507 64,1518' rendition='Line' xml:id='facs_49_r1l34'/>
+            <zone points='74,1602 1245,1618 1323,1607 1324,1567 75,1553' rendition='Line' xml:id='facs_49_r1l35'/>
+            <zone points='74,1642 1115,1650 1115,1617 1005,1599 74,1601' rendition='Line' xml:id='facs_49_r1l36'/>
+            <zone points='111,1680 1292,1705 1327,1658 1246,1619 1103,1652 111,1639' rendition='Line' xml:id='facs_49_r1l37'/>
+            <zone points='76,1727 1325,1743 1325,1704 1264,1692 76,1680' rendition='Line' xml:id='facs_49_r1l38'/>
+            <zone points='71,1774 1260,1788 1324,1784 1325,1743 71,1730' rendition='Line' xml:id='facs_49_r1l39'/>
+            <zone points='75,1819 1322,1826 1283,1778 75,1775' rendition='Line' xml:id='facs_49_r1l40'/>
+            <zone points='70,1869 1218,1878 1330,1869 1331,1819 71,1821' rendition='Line' xml:id='facs_49_r1l41'/>
+            <zone points='74,1904 1329,1927 1319,1867 75,1869' rendition='Line' xml:id='facs_49_r1l42'/>
+            <zone points='73,1947 889,1960 936,1951 937,1910 73,1902' rendition='Line' xml:id='facs_49_r1l43'/>
+            <zone points='127,1993 1319,2008 1329,1933 127,1949' rendition='Line' xml:id='facs_49_r1l44'/>
+            <zone points='82,2040 1274,2060 1330,2051 1331,2006 82,1996' rendition='Line' xml:id='facs_49_r1l45'/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="issue">
+         	<pb facs='#facs_49' n='49'/>
+         	<head><lb facs='#facs_49_r1l2' n='N001'/><hi>13.</hi></head> 
+            <div type="letter" ana="date:1619-03-16 place:Schweiz">
+            <head><lb facs='#facs_49_r1l3' n='N002'/><hi>Auß Schweitz vom 16. Martij / 1619.</hi></head>
+               <div type="subletter"> <p><lb facs='#facs_49_r1l4' n='N003'/><hi rendition='#in'>V</hi>Erschienen Sontag acht tage iſt zu <placeName ref="wikidata:Q64077">Wyl</placeName> auff dem Reffzer Feld/ da die
+                  <lb facs='#facs_49_r1l5' n='N004'/>Mannſchafft den Zürchern/ die Hochheit aber dem Herrn <persName>Graffen von
+                     <lb facs='#facs_49_r1l6' n='N005'/>Sultz</persName> zuſtändig/ ein Feuwer vmb 2. Vhr nach Mittag auffgangen/ alſo/
+            <lb facs='#facs_49_r1l7' n='N006'/>daß ſelbiges in 3. Stunden 43. Häuser/ darinnen 64. Haußhaltungẽ geweſen/ mit
+            <lb facs='#facs_49_r1l8' n='N007'/>aller Haab in die Aſchen gelegt/ man ſagt/ es hab einer eine Mußketten abgelaſſen/
+            <lb facs='#facs_49_r1l9' n='N008'/>dardurch das Feuwer zum erſten angangen/ welcher flüchtig worden.</p></div>
+               <div type="subletter" ana="place:Graubünden"> <p><lb facs='#facs_49_r1l10' n='N009'/>	Auß den <placeName ref="wikidata:Q153925">Pünten</placeName> ist vber die Schreiben der 5. Ort keine Antwort erfolget/ auß
+            <lb facs='#facs_49_r1l11' n='N010'/>was vrſachen/ ist noch vnbewuſt/ So wirdt vermeld/ dieſelbige/ ſampt ihren Mitt=
+            <lb facs='#facs_49_r1l12' n='N011'/>Conſorten halten ſtarck vmb ein neuwes Straffgericht an/ wann das geſchehen
+            <lb facs='#facs_49_r1l13' n='N012'/>ſolte/ würde es ſeltzam zugehen.</p></div>
+               <div type="subletter" ana="place:Italien"> <p><lb facs='#facs_49_r1l14' n='N013'/>Auß <placeName ref="wikidata:Q38">Jtalia</placeName> haben wir gewiſſe auiſi, daß die Spanische Armada/ ſo die zeit he=
+                  <lb facs='#facs_49_r1l15' n='N014'/>ro vnter anderm ſchein/ auff dem Meer gehalten/ vber den <placeName ref="wikidata:Q194205">Venedischen Golffo</placeName> zu
+                  <lb facs='#facs_49_r1l17' n='N015'/>ein löbliche Herrschafft <placeName ref="wikidata:Q641">Venedig</placeName> ſich zu gebrauchen/ Es iſt auch gewiß/ daß/ vn=
+                  <lb facs='#facs_49_r1l18' n='N016'/>angeſehen der Frieden zwiſchen <placeName ref="wikidata:Q40">Oesterreich</placeName> vnd <placeName ref="wikidata:Q641">Venedig</placeName> beſchlossen/ ſo wil doch
+                  <lb facs='#facs_49_r1l19' n='N017'/>der <hi><persName>Duca d'Ossuna Vice Re</persName></hi> zu <placeName ref="wikidata:Q2634"> Neapolis </placeName> nichts halten/ ſondern hat alle fürnem̃=
+            <lb facs='#facs_49_r1l20' n='N018'/>ſte Wahren/ ſo er ſampt den Galleren reſtituiren ſol/ außgeladen/ vnd ſich darne=
+            <lb facs='#facs_49_r1l21' n='N019'/>ben verlauten laſſen daß/ ehe er gedachte Schiff restituiren wolte/ dieſelbe ehe mü=
+                  <lb facs='#facs_49_r1l22' n='N020'/>ſten verbrant werden. Man armiert ſtarck in <placeName ref="wikidata:Q4951156">Sicilien</placeName>/ <placeName ref="wikidata:Q2634">Neapolis</placeName>/ <placeName ref="wikidata:Q8828">Hiſpania</placeName>/ <placeName ref="wikidata:Q1462">Sar=
+                     <lb facs='#facs_49_r1l23' n='N021'/>dinia</placeName>/ <placeName ref="wikidata:Q52636">Matorica</placeName>/ <placeName ref="wikidata:Q38">Jtalien</placeName>/ vnnd anderswo/ zu welchem ende/ wirdt ſich bald entde=
+                  <lb facs='#facs_49_r1l24' n='N022'/>cken müssen.</p></div> <div type="subletter"> <p>Dieſer tagen ſind in etlichen Stätten in <placeName ref="wikidata:Q2009437">OberElsaß</placeName> 1000. Wal=
+            <lb facs='#facs_49_r1l25' n='N023'/>lonische Pferde/ wol muntirt vnd armirt/ eynquartirt worden/ Man iſt noch an=
+                     <lb facs='#facs_49_r1l26' n='N024'/>derer 1000. gewertig/ vnd damit 5000. zu Fuß/ welche im <placeName ref="wikidata:Q1142">Elsaß</placeName> ſollen gemuſtert
+            <lb facs='#facs_49_r1l27' n='N025'/>werden/ gibt dieſer Orten viel nachdenckens.</p></div></div>
+            <div type="letter" ana="date:1619-03-16 place:Rom" >
+            	<head><lb facs='#facs_49_r1l28' n='N026'/><hi rendition='#c #b'>Auß Rohm vom 16. Ditto.</hi></head>
+               <div type="subletter"><p><lb facs='#facs_49_r1l29' n='N027'/>Montags iſt der <persName>Cauallier Parauicino</persName> nach <placeName>Teutschlande</placeName> verreiſt/ vmb in dem
+                  <lb facs='#facs_49_r1l30' n='N028'/><placeName>Keyſer Läger</placeName> gegen <placeName ref="wikidata:Q682753">Böheim</placeName>/ als ein Venturier/ zu dienen/ ſo iſt auch der <persName>Monſ.
+                  <lb facs='#facs_49_r1l31' n='N029'/>Veroſpi</persName>, als extraordinari Nuntius nach dem <placeName>Keys. Hofe</placeName> gezogen.</p></div>
+               <div type="subeletter" ana="place:Neapel"><p><lb facs='#facs_49_r1l32' n='N030'/>Von <placeName ref="wikidata:Q2634">Neapoli</placeName> har man/ daß ire <persName>F. Gn. Herr Ludwig Landgraff zu Heſſen</persName> vom
+                  <lb facs='#facs_49_r1l33' n='N031'/>ſelbigen <persName><hi>Vice Re</hi></persName> ſtattlich empfangen/ vnd careziert worden/ vnd ob wol <persName>S. F. G.</persName>
+                  <lb facs='#facs_49_r1l34' n='N032'/>mit einer Vaſel nach <placeName ref="wikidata:Q1218">Jeruſalem</placeName>/ das heilige Grab zu beſuchen/ abgefahren/ ſind
+                  <lb facs='#facs_49_r1l35' n='N033'/>ſie doch <hi>per fortuna</hi> zu <placeName ref="wikidata:Q233">Malta</placeName> angetrieben/ vnnd werden von dannen auff <placeName ref="wikidata:Q220">Rom</placeName>
+            <lb facs='#facs_49_r1l36' n='N034'/>kommen/ ſonſten werden noch immerdar Soldaten angenommen.</p></div>
+               <div type="subletter" ana="place:Avignon"><p><lb facs='#facs_49_r1l37' n='N035'/>Vmb <placeName ref="wikidata:Q6397">Auignone</placeName> hat man die <persName>alte Königin</persName> mit dem Hertzogen <persName><hi>d&apos;Espernon</hi></persName>
+                  <lb facs='#facs_49_r1l38' n='N036'/><persName>Gulsa</persName>/ <persName>Momoranzi</persName>/ <persName>Bullion</persName>/ vnd andere/ geſehen/ denen auch ſehr viel Hugeno=
+                  <lb facs='#facs_49_r1l39' n='N037'/>ten anhangen. So hat man auß <placeName ref="wikidata:Q142">Franckreich</placeName>/ <persName>der König</persName> were mit gantzer Macht
+                  <lb facs='#facs_49_r1l40' n='N038'/>zu Feld gezogen/ zu deme der von <placeName>Vmena</placeName>/ <persName>die Königin</persName> zu verfolgen/ gestoſſen Es
+                  <lb facs='#facs_49_r1l41' n='N039'/>habe auch die Statt <placeName ref="wikidata:Q90">Pariß</placeName> dem König 6. Million Golt/ vnd der <persName>Printz Vittorio</persName>
+            <lb facs='#facs_49_r1l42' n='N040'/>2000. Soldaten auff sein Koſten zu vnterhalten/ hierzu offeriert/ welcher der orts
+            <lb facs='#facs_49_r1l43' n='N041'/>alsbald zum General vber alles Kriegsvolck verordnet.
+            </p></div>
+               <div type="subletter"><p><lb facs='#facs_49_r1l44' n='N042'/><persName>Der Sauoyer</persName> hat das Teutsche Volck/ so ihme in <placeName>Piemont</placeName> gedient/ den Böh=
+            <lb facs='#facs_49_r1l45' n='N043'/>men angebotten/ dagegen ſol die Spanische Volck hilff nicht durchs Venediſche
+		         <pb facs='#facs_50' n='50'/> </p></div>
+               <div type="subletter"><lb facs='#facs_50_r1l1' n='N001'/><p>Gebiet/ ſondern auff <placeName ref="wikidata:Q1449">Genoa </placeName> nach <placeName>Teutſchlandt</placeName> zu ziehen/ begeben/ den Venedi=
+            		<lb facs='#facs_50_r1l2' n='N002'/>gern/ deß Friedens halben/ kein Suſpect zu machen.</p></div></div>
+            <div type="letter" ana="date:1619-03-122 place:Venedig">
+            	<head><lb facs='#facs_50_r1l2' n='N002'/>Auß Venedig vom 22. Ditto.</head>
+               <div type="subletter" ana="place:Mailand"><p><lb facs='#facs_50_r1l4' n='N004'/>Auß <placeName ref="wikidata:Q490">Meyland</placeName> wirdt bericht/ daß der <persName><hi>Don Rodrigo di Calderone</hi></persName> zu Vaglia=
+                  <lb facs='#facs_50_r1l5' n='N005'/>dolid/ auff deß <persName>Königs in Spania</persName> befelch/ gefänglich angenommen/ vnd in Eiſen
+                  <lb facs='#facs_50_r1l6' n='N006'/>gelegt worden/ vber welche auiſo der <persName>Cardinal di Lerma</persName> ſehr erſchrocken.</p></div>
+               <div type="subletter" ana="place:Istanbul"><p><lb facs='#facs_50_r1l7' n='N007'/>Auß <placeName ref="wikidata:Q16869">Conſtantinopel</placeName> wirdt aviſiert/ der Krieg mit den Perſianern gehe wider
+                  <lb facs='#facs_50_r1l8' n='N008'/>an/ dann der <persName>Groß Türck</persName> die vom <persName>General</persName> Viſir begriffene Capitulationes nicht
+            <lb facs='#facs_50_r1l9' n='N009'/>genem halten wil/ weil ſolche dem Ottomaniſchen Reich ſehr preiudicierlich/ deß=
+            <lb facs='#facs_50_r1l10' n='N010'/>wegen hat gedachter Viſir das Generalat/ vnd alle andere Digniteten/ renuncirt/
+            <lb facs='#facs_50_r1l11' n='N011'/>vnd werden im Arſenal groſſe Prouisiones zur Meer Armada gemacht.</p><p>Hie ſind
+            <lb facs='#facs_50_r1l12' n='N012'/>viel Schiff von vnterschiedlichen Orten mit Kauffmanſchafften ankommen/ de=
+            <lb facs='#facs_50_r1l13' n='N013'/>ren theils ſequeſtrirt worden/ vmb auffn Nothfall zu armiren/ So sind auch 700.
+               <lb facs='#facs_50_r1l14' n='N014'/>Holländische Soldaten/ von <placeName ref="wikidata:Q617">Padua</placeName> vnd <placeName ref="wikidata:Q6537">Vincenza</placeName> anhero gelangt/ Etliche wol=
+               <lb facs='#facs_50_r1l15' n='N015'/>len/ ſollen zu der Armada/ andere aber mit dem <persName>Eccel. Proc. Barbarigo</persName> in <placeName>Jſtria</placeName>
+            <lb facs='#facs_50_r1l16' n='N016'/>geſandt werden/ vmb dem Spanischen Volck/ welche mit der Neapolttaniſchen
+            <lb facs='#facs_50_r1l17' n='N017'/>Armada durch den Golffo ſetzen wollen/ den Paſſz zu verhindern.</p></div><div type="subletter"><p>Von der Ar=
+            <lb facs='#facs_50_r1l18' n='N018'/>mada hat man auiſo, daß zwiſchen den Holländ. vnd Albaneſiſchen Soldaten ein
+            <lb facs='#facs_50_r1l19' n='N019'/>Streit entſtanden/ darüber beyderſeits in 200. todt blieben/ vnd verwund worden.</p></div></div>
+            <div type="letter" ana="date:1619-03-21 place:Wien">
+            	<head><lb facs='#facs_50_r1l20' n='N020'/><hi rendition='#c #b'>Auß Wien vom 21. Ditto.</hi></head>
+               <p><lb facs='#facs_50_r1l21' n='N021'/>Ob schon ire <persName>Keyſ. Maj.</persName> ſich erliche tag hero gantz wol vnd friſch auff befunden/
+            <lb facs='#facs_50_r1l22' n='N022'/>daß ſie nicht allein etlichen anwesendẽ Amb. gute Audiens/ gegeben/ ſondern auch
+            <lb facs='#facs_50_r1l23' n='N023'/>von vielen Sachen ansehenlich discurriert/ etliche Kleinodien/ ſonderlich aber die
+            <lb facs='#facs_50_r1l24' n='N024'/>ſtattliche mit lauter Edelgesteine versetzte/ Cron herauß tragen laſſen/ ſolche besich=
+                  <lb facs='#facs_50_r1l25' n='N025'/>tiget/ vnd ſich gantz freudig erzeigt. Als aber geſtern frühe vmb 6. Vhr <persName>Herr Doct.
+                     <lb facs='#facs_50_r1l26' n='N026'/>Freywald</persName> zu jrer <persName>Keyſ. Ma.</persName> kommen/ ſie gefragt/ wie ſie geſchlaffen/ Sie gantz wol
+                  <lb facs='#facs_50_r1l27' n='N027'/>geantwortet/ darauff ire <persName>Maj.</persName> den <persName>Doctorn</persName> gefragt/ was für ein Tag ſich erzeige/ er
+                  <lb facs='#facs_50_r1l28' n='N028'/>geantwortet/ ein gar ſchön vn lieblicher/ Jre <persName>Maj.</persName> hinwider geredt/ Sie glaubens/
+                  <lb facs='#facs_50_r1l29' n='N029'/>vnd empfinden es/ aber kurtz hernach iſt irer <persName>Ma.</persName> die Stim̃ entfallen/ vnd zwiſchen
+                  <lb facs='#facs_50_r1l30' n='N030'/>8. vnd 9. Vhr/ als er zuvor die letzte Oelung empfangen/ in anweſenheit irer <persName>Kön=
+                     <lb facs='#facs_50_r1l31' n='N031'/>Maj.</persName> obersten Cämmerers/ vnd andern Herrn/ in Gott ſeliglich entſchlaffen/ dar=
+            <lb facs='#facs_50_r1l32' n='N032'/>auff alle Sachen verpitſchiert/ vnd der Leichnam nach Mittag exenterirt worden/
+            <lb facs='#facs_50_r1l33' n='N033'/>Das Gehirn ist etlicher maſſen/ wie auch die Lung/ ſehr verſeert/ daſ Hertz vn Leber
+            <lb facs='#facs_50_r1l34' n='N034'/>aber gar friſch geweſen/ Haben also jre Maj. 62. Jahr vnd 15. Tage erreicht.</p> </div>
+            <div type="letter" ana="date:1619-03-24 place:Prag">
+            	<head><lb facs='#facs_50_r1l35' n='N035'/><hi rendition='#c #b'>Auß Prag vom 24. Ditto.</hi></head>
+               <p><lb facs='#facs_50_r1l36' n='N036'/>Den 17. diß ist der <persName>Churf. Sächſiſche Geſandter</persName>/ auff erfordern/ von hier wider
+            <lb facs='#facs_50_r1l37' n='N037'/>nach Hauß verreiſt/ Den 18. ist von den Ständen ein grosse zuſammenkunfft be=
+            <lb facs='#facs_50_r1l38' n='N038'/>ſchehẽ/ vñ nit mehr als die Propoſition/ dessen Extract hie folget/ abgeleſen wordẽ.
+            <lb facs='#facs_50_r1l39' n='N039'/>Als 1. Wann es zur Jnterpoſition kommen/ was man thun ſolle. 2. Jnmittels/
+            <lb facs='#facs_50_r1l40' n='N040'/>biß zu der Jnterposition/ weil die ſuſpenſio armorum nit hat ſeyn können/ vnd der
+            <lb facs='#facs_50_r1l41' n='N041'/>Feind ſeinen willen verübt/ wie das Königreich vor Gefahr ſicher ſeyn möge. 3.
+            <lb facs='#facs_50_r1l42' n='N042'/>Wann es zur Jnterpoſition kompt/ durch was Mittel diesem Königreich auß iren
+            <lb facs='#facs_50_r1l43' n='N043'/>Beſchwerden könne geholffen werden/ derhalben wollen die Ständ diesen folgen=
+         <pb facs='#facs_51' n='51'/>
+            <lb facs='#facs_51_r1l2' n='N001'/>den Artickel berat ſchlagen. 4. Was für Personen/ vnd in was anzahl zur Jn=
+            <lb facs='#facs_51_r1l3' n='N002'/>terposition förders auß den Ständen vnd Directorn zu depirtirn. 5. Was für
+            <lb facs='#facs_51_r1l4' n='N003'/>Vollmacht vnnd Jnstruction jnen zu geben. 6. Was die Abgesandten für Ge=
+            <lb facs='#facs_51_r1l5' n='N004'/>fahr durch Keys. oder ander Gleit/ gesichert seyn mögen. 7. Weil kein Stillstant
+            <lb facs='#facs_51_r1l6' n='N005'/>hat seyn wollen / sondern den selben auch zu der Jnterposition verschoben / wie zwi=
+            <lb facs='#facs_51_r1l7' n='N006'/>schen der zeit biß zu der Jnterposition die Herrn Ständ sich in acht nem̃en müssen.
+            <lb facs='#facs_51_r1l8' n='N007'/>8. Weiters im fall der Not sey jetzt das gantze Landt auffzuheben/ vnnd alle Herrn
+            <lb facs='#facs_51_r1l9' n='N008'/>Stände persönlich auff zu seyn/ vnd jre Leute außzustaffirn zu erwegen/ ob ein jeder
+            <lb facs='#facs_51_r1l10' n='N009'/>nach der letzten Schatzung deß 1596. Jahrs den Landgütern vnnd Zinsgefälle /
+            <lb facs='#facs_51_r1l11' n='N010'/>nemlich von 10. M. Landgütern 1. gerüstet Pferd / vnd von 25. Schock Zinßgel=
+            <lb facs='#facs_51_r1l12' n='N011'/>dern auch 1. gerüst Pferd/ ist noch eins so viel/ vnd also 2. das ist da zuvor 1. Pferd/
+            <lb facs='#facs_51_r1l13' n='N012'/>jetzt 2. vnnd also weiter. Beneben den 20. Mann/ vnnd in den Stätten den 16. alle
+            <lb facs='#facs_51_r1l14' n='N013'/>mit Büchsen oder Mußketten außzustaffieren/ vnnd daß jetzt die Rittmeister vnd
+            <lb facs='#facs_51_r1l15' n='N014'/>Hauptleute geordnet/ vnd mit jnen Besoldung halben accordirt werde. 9. Wel=
+               <lb facs='#facs_51_r1l16' n='N015'/>che vermög der vorigen zusammenkunfft/ Dinstag nach Bartholomei/ Ann. 618.
+            <lb facs='#facs_51_r1l17' n='N016'/>ein jeder selbst persönlich hat fortziehen/ oder an seine Stell ein andere taugliche
+            <lb facs='#facs_51_r1l18' n='N017'/>Person außrüsten/ vnd den 5 Mañ fortschicken sollen/ daß diejenigen/ welche sich
+            <lb facs='#facs_51_r1l19' n='N018'/>diesem gemäß nicht verhalten/ das doppelte Gelt darfür geben/ vnd in 4. Wochen
+            <lb facs='#facs_51_r1l20' n='N019'/><hi>erlegen sollen. 10. Daß ein allgemeine bereitschafft geschehe/ solcher gestallt/ da die</hi>
+            <lb facs='#facs_51_r1l21' n='N020'/>Jnterposition nicht solte fortgehen/ oder kein nützlicher Effect erfolgen solte/ vnnd
+            <lb facs='#facs_51_r1l22' n='N021'/>die Stände in Gefahr bleiben möchten/ derwegen da entzwischen/ als were die Jn=
+            <lb facs='#facs_51_r1l23' n='N022'/>terposition/ mehr feindlich Kriegsvolck ins Land fallen/ vnd die Stände vnterdru=
+            <lb facs='#facs_51_r1l24' n='N023'/>cken wollen. 11. Zur bezahlung deß geworbenen Volcks/ daß die alten Restanten/
+            <lb facs='#facs_51_r1l25' n='N024'/>sowol auch deß 615. Jars eynbracht werden möchten. 12. Ob nun etwas mehrers
+            <lb facs='#facs_51_r1l26' n='N025'/>ober vorig Contribution/ zur bezahlung deß geworbenen Volcks/ auß eigenem
+            <lb facs='#facs_51_r1l27' n='N026'/>Deckel/ ohne zuziehung der Vnterthanen/ bewilligt werden möge. 13. Daß ein
+            <lb facs='#facs_51_r1l28' n='N027'/>jeder Jnd vom Haupt 12. Jahr alt ist/ 30. th. vnd die Jungen zur 5. erlegen sollen.
+            <lb facs='#facs_51_r1l29' n='N028'/>14 Daß die Herrn Stände das Läger mit Prouiande befördern wollen
+            </p>
+            	<p><lb facs='#facs_51_r1l30' n='N029'/>Den 19. ist einhellig beschlossen/ daß Mann für Mann in allen Kreisen/ darzu
+            <lb facs='#facs_51_r1l31' n='N030'/>36. Commissarien von den fürnembsten Herrn deputiert/ sich fertig halten/ vnnd
+            <lb facs='#facs_51_r1l32' n='N031'/>auffn Nothfall Freytag nach Ostern/ ein jeder in seinem Kreyß/ wolgerüft finden
+            		<lb facs='#facs_51_r1l33' n='N032'/>lassen solle.</p></div>
+            <div type="letter" ana="date:1619-04-02 place:Köln">
+            	<head><lb facs='#facs_51_r1l34' n='N033'/><hi>Auß Cölln vom 2. Aprilio / 1619.</hi></head>
+               <div type="subletter" ana="place:Holland"><p> <lb facs='#facs_51_r1l35' n='N034'/><hi>Für dißmal auß <placeName ref="wikidata:Q102911">Hollandt</placeName> anders nichts/ dann daß der gefangenen Proceß/</hi>
+            <lb facs='#facs_51_r1l36' n='N035'/>wie etliche berichten/ nunmehr zu end kommen/ vnnd war es jetzt allem daran/ daß
+            <lb facs='#facs_51_r1l37' n='N036'/>man denselbigen außführlich verfast/ vnnd männiglich zu erkennen geb/ vnnd als
+            <lb facs='#facs_51_r1l38' n='N037'/>dann die Execution ergehen lassen/ der Mörßberger soll fort alles geossenbart ha=
+            <lb facs='#facs_51_r1l39' n='N038'/>ben/ wie noch alles ablauffe/ gibt die zeit.
+            </p></div>
+               <div type="subletter"><p><lb facs='#facs_51_r1l40' n='N039'/><persName>Johann Dienbrogard</persName>/ so zuvor in dem <placeName>Haag Hospredicant</placeName> gewesen/ vnnd a=
+            <lb facs='#facs_51_r1l41' n='N040'/>ber zu anfang dieses Vngewitters entwichen/ ist den achtzehenden dieses dreymal
+            <lb facs='#facs_51_r1l42' n='N041'/>mit dem Glockenklang/ vnnd darnach durch ein von dem Rathhauß abgelesene
+            <lb facs='#facs_51_r1l43' n='N042'/>Schrifft/ sich eyn zustellen/ vnd auff das jenige so man ihm fürhalten würde/ Red
+                  <lb facs='#facs_51_r1l44' n='N043'/>vnd Antwort zu geben/ cittert vnd eyngeladen werden. </p></div><div type="subletter"><p>Deßgleichen ist zu <placeName ref="wikidata:Q9920">Har=
+         <pb facs='#facs_52' n='52'/>
+                     <lb facs='#facs_52_r1l1' n='N001'/>lem</placeName> wider den entwichenẽ Syndicum Ham verfahren worden/ Jst aber wol zu ge=
+            <lb facs='#facs_52_r1l2' n='N002'/>dencken/ daß sie zu erscheinen schlechten Lust haben werden.
+            </p></div>
+            	<div type="subletter"><p><lb facs='#facs_52_r1l3' n='N003'/>Vor etlich tagen sind die Frantzösische Ambassatorn zu vnterschiedlichen ma=
+            <lb facs='#facs_52_r1l4' n='N004'/>len bey ihrer Excel. gewesen/ darnach bey den Herren General Staden audienz
+            	   <lb facs='#facs_52_r1l5' n='N005'/>gehabt/ vnnd soll der <persName><hi>extraordinari Ambassator, Mons. de Boisise</hi></persName> sein Abschiedt
+            <lb facs='#facs_52_r1l6' n='N006'/>genommen haben.</p></div>
+               <div type="subletter"><p><lb facs='#facs_52_r1l7' n='N007'/><persName>Der König</persName> in <placeName ref="wikidata:Q145">Groß Britanien</placeName> vnd die Herrn Staden sollen fürhabens seyn/
+            <lb facs='#facs_52_r1l8' n='N008'/>alle die Schiff vnnd Steuwerleute/ Büchsenmeister/ vnnd ins gemein alle dersel=
+            <lb facs='#facs_52_r1l9' n='N009'/>bigen Vnterthanen/ so sich auff der Spanischen Floth wider dero Maj. Reich/
+            <lb facs='#facs_52_r1l10' n='N010'/>oder die vnierte Prouinzen würden gebrauchen lassen/ zu erklären/ daß sie Leib vnd
+            <lb facs='#facs_52_r1l11' n='N011'/>Gut verfallen seyn.
+            </p></div>
+               <div type="subletter"><p><lb facs='#facs_52_r1l12' n='N012'/>Die 1000. Pferde/ so für den <persName>Keyser</persName> geworben/ sollen sich vmb die Maaß her
+            <lb facs='#facs_52_r1l13' n='N013'/>versamlen/ vnd sollen die sechs tausendt Wallonen zu Fuß auch in kurtzen bey ein=
+                  <lb facs='#facs_52_r1l14' n='N014'/>ander seyn. 	Jn <placeName ref="wikidata:Q102911">Hollandt</placeName> ist man etlich tausent Schott: vnd Engelländer gewer=
+            <lb facs='#facs_52_r1l15' n='N015'/>tig/ zu versterckung der alten Regimenten.
+            </p></div>
+               <div type="subletter"><p><lb facs='#facs_52_r1l16' n='N016'/>Demnach der <persName>Graff von Arghathel</persName>auß <placeName ref="wikidata:Q22">Schottlandt</placeName> vor diesem entwichen/
+                  <lb facs='#facs_52_r1l17' n='N017'/>vnnd vngeacht <persName>der König</persName> ihn scharpff eynladen lassen/ eben obstinat geblieben/ vnd
+                  <lb facs='#facs_52_r1l18' n='N018'/>sich bißhero an deß Ertzherzogs Hof zu <placeName ref="wikidata:Q9005">Brüssel</placeName> auffgehalten/ jetzo aber gar nach
+                  <lb facs='#facs_52_r1l19' n='N019'/><placeName ref="wikidata:Q29">Spanien</placeName> gezogen/ Als der König in <placeName ref="wikidata:Q145">Groß Britanien</placeName> nicht ohne Vrsach die Für=
+                  <lb facs='#facs_52_r1l20' n='N020'/>sorg/ weil selbigen Graffens Land nach der <placeName ref="wikidata:Q22">Westseiten Schottlands</placeName>/ nach <placeName ref="wikidata:Q29">Spa=
+                     <lb facs='#facs_52_r1l21' n='N021'/>nien</placeName> zu ligt/ es möchten etwan Anschläg darauff fürhanden seyn/ derowegen auch
+            <lb facs='#facs_52_r1l22' n='N022'/>dieselbe MeerCust starck besetzt wirdt.</p></div>
+               <div type="subletter" ana="place:Frankreich"><p><lb facs='#facs_52_r1l23' n='N023'/>Auß <placeName>Franckreich</placeName> hat man seithero anders nichts/ dañ das alles zu grossem Vn=
+            <lb facs='#facs_52_r1l24' n='N024'/>heil auß sicht/ der König stärckt sich taglich/ dem bieten die von der Religion alle
+                  <lb facs='#facs_52_r1l25' n='N025'/>mögliche Hilffe an/ Hingegen thut die alte Königin vnd <persName><hi>Duca di Espernon</hi></persName> auch/
+            <lb facs='#facs_52_r1l26' n='N026'/>vnd sollen sich viel grosser Herrn zu jnen schlagen/ nach dem etliche berichten/ habe
+            <lb facs='#facs_52_r1l27' n='N027'/>aber noch keine Specification gesehen.</p></div>
+               <div type="subletter"><p> <lb facs='#facs_52_r1l28' n='N028'/>Die Ostfrießländische Streittigkeiten sind noch nicht gar hingelegt/ vnnd ist
+                  <lb facs='#facs_52_r1l29' n='N029'/>der Graff auff die von <placeName>Embden</placeName> sehr erzürnet/ begeret von den Herrn Staden
+            <lb facs='#facs_52_r1l30' n='N030'/>Schutz vnd Schirm/ anderst werd er solches anderstwo suchen müssen.
+               </p><p><lb facs='#facs_52_r1l31' n='N031'/><hi>Jn <placeName>Holland</placeName> werden noch 6. Schiff auff <placeName>OstJndien</placeName> auß gerüstet/ vnd handel</hi>t
+               <lb facs='#facs_52_r1l32' n='N032'/>man in auffrichtung der WestJndischen Compagney noch starck. </p></div><div type="subletter"><p>Die Vnter=
+                  <lb facs='#facs_52_r1l33' n='N033'/>thanen der vereinigten Niderlanden sollen eyngebracht haben/ daß inen von <placeName>Spa=
+                     <lb facs='#facs_52_r1l34' n='N034'/>nien</placeName> mehr dann 50. Tonnen Golts/ vnbillicher weiß/ Schaden geschehen.</p></div>
+               <div type="subletter" ana="place:Duisburg"><p><lb facs='#facs_52_r1l35' n='N035'/>Auß <placeName>Duißberg</placeName> wirdt mit folgenden worten geschrieben / Jn den <placeName>Flanderischen
+                  <lb facs='#facs_52_r1l36' n='N036'/>Niderlanden</placeName>/ wie auch in diesen Quartieren/ so doch von Hispanischen vnd Hol=
+            <lb facs='#facs_52_r1l37' n='N037'/>ländischen kriegenden theilen fast occupiert/ ist eine grosse/ zu Rossz vnnd Fuß/ von
+            <lb facs='#facs_52_r1l38' n='N038'/>Teutschen vund Wallonischen Nationen/ Kriegswerbung vorhanden/ darab
+                  <lb facs='#facs_52_r1l39' n='N039'/>von tausendt Pferde im anzug/ vmb sich hinauff nach dem <placeName>OberTeutschlandt</placeName>
+            <lb facs='#facs_52_r1l40' n='N040'/>zu begeben/ wirdt der Friede zerschlagen/ so möchte es einen weitern Tumult geben.
+               </p><p><lb facs='#facs_52_r1l41' n='N041'/>So wirdt auch auß <placeName>Aach</placeName> diß gemeld/ Dieser Orten hört man anders nichts/
+            <lb facs='#facs_52_r1l42' n='N042'/>als von Krieg vnnd Kriegsgeschrey/ dann allenthalben hierumb Kriegßvolck/ zu
+                  <lb facs='#facs_52_r1l43' n='N043'/>Rossz vnd Fuß/ geworben wirdt/ ziehen meistentheil nach <placeName>OberTeutschlandt</placeName>.</p></div></div>
+            <closer><lb facs='#facs_52_r1l44' n='N044'/><hi rendition='#g'>ENDE.</hi></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Frankfurter Postzeitung, Jahrgang 1618, 52</title>
+				<!-- unser Titel, den wir der Zeitung geben und den wir individuell
+                                                                                       für jede Ausgabe anpassen müssen -->
+				<editor>
+					<persName ref="http://d-nb.info/gnd/135774314">
+						<surname>Sahle</surname>
+						<forename>Patrick</forename>
+					</persName>
+				</editor>
+				<respStmt>
+					<orgName> Bergische Universität Wuppertal: Praxisseminar zur Quellenerschließung der Frankfurter Postzeitung (1618-1648) am Lehrstuhl für Digital Humanities, WiSe 2020/21. </orgName>
+					<persName>
+						<forename>Ina</forename>
+						<!-- bitte jeweils anpassen -->
+						<surname>Schäfer</surname>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Bereitstellung der Texttranskription</note>
+						<note type="remarkResponsibility">Text Encoding</note>
+					</resp>
+				</respStmt>
+				<respStmt>
+					<resp>
+						<note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</note>
+						<ref target="https://brema.suub.uni-bremen.de/zeitungen17/periodical/titleinfo/934741"> Digitale Sammlungen der Staats- und Universitätsbibliothek Bremen</ref>
+					</resp>
+					<orgName ref="http://d-nb.info/gnd/130088-X">Staats- und Universitätsbibliothek Bremen</orgName>
+					<orgName ref="http://d-nb.info/gnd/2031351-2">Bayerische Staatsbibliothek München</orgName>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Digitale Publikation</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName role="project" xml:lang="de">Praxisseminar Quellenerschließung</orgName>
+					<email>sahle@uni-wuppertal.de</email>
+					<address>
+						<addrLine>Gaußstr. 20, 42119 Wuppertal</addrLine>
+						<country>Germany</country>
+					</address>
+				</publisher>
+				<pubPlace>Wuppertal</pubPlace>
+				<date type="publication">2020</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/3.0/de/">
+						<p>Creative Commons - Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE)</p>
+						<p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht
+							werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung besonders. Weitergabe unter gleichen Bedingungen — Wenn Sie das Material remixen, verändern oder anderweitig
+							direkt darauf aufbauen, dürfen Sie Ihre Beiträge nur unter derselben Lizenz wie das Original verbreiten. </p>
+					</licence>
+				</availability>
+				<idno/>
+			</publicationStmt>
+			<notesStmt>
+				<note type="remarkSource"> Der Bestand der Frankfurter Postzeitung umfasst den Zeitraum von 1615 bis 1779, ist jedoch lückenhaft. Mit Blick auf die Publikationszeiträume ist eine Variation in dem Zeitungstitel erkennbar. Teilweise ist
+					kein Titel überliefert. Periodizität: wöchentlich, mitunter öfter. Erscheint 1632 - 1635[?] mit in d. lfd. Zählung integrierten Extra-Ausgaben. Ungezählte Beil. 1627: Appendix</note>
+			</notesStmt>
+			<sourceDesc>
+				<bibl type="J">Frankfurter Postzeitung. Frankfurt a. M., Ausg. 52, 1618.</bibl>
+				<!-- bitte an die einzeln Ausgabe anpassen -->
+				<biblFull>
+					<titleStmt>
+						<title level="j" type="main">Titellose Zeitung (Frankfurter Postzeitung)</title>
+						<title level="j" type="sub">Frankfurter Kayserl. Reichs-Ober-Post-Amts-Zeitung</title>
+						<editor>
+							<persName ref="http://d-nb.info/gnd/124657788">
+								<surname>Birghden</surname>
+								<nameLink>von den</nameLink>
+								<forename>Johann</forename>
+							</persName>
+						</editor>
+					</titleStmt>
+					<extent>
+						<measure type="pages">4, ungefähr DIN A 5</measure>
+					</extent>
+					<publicationStmt>
+						<publisher>
+							<name/>
+						</publisher>
+						<pubPlace>Frankfurt am Main</pubPlace>
+						<date type="publication">1618</date>
+						<!-- bitte anpassen -->
+					</publicationStmt>
+					<seriesStmt>
+						<title level="j" type="main">Ordentliche Wochentliche Zeitungen</title>
+						<biblScope unit="volume">52</biblScope>
+						<!-- bitte anpassen -->
+						<biblScope unit="pages">4</biblScope>
+					</seriesStmt>
+				</biblFull>
+				<msDesc>
+					<msIdentifier>
+						<repository>Staats- und Universitätsbibliothek Bremen (SuUB)</repository>
+						<idno type="VD">14:703084T</idno>
+						<idno type="URLCatalogue">http://katalog.suub.uni-bremen.de/DB=1/CLK?IKT=12&amp;TRM=779924320</idno>
+						<idno type="PPN">779924320</idno>
+					</msIdentifier>
+					<physDesc>
+						<typeDesc>
+							<p>Fraktur</p>
+							<p>Antiqua</p>
+						</typeDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>Die Transkription erfolgte nach den unter <ref>http://www.deutschestextarchiv.de/doku/basisformat</ref> formulierten Richtlinien.</p>
+				<p>Abkürzungsstriche: wie Vorlage; Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): gekennzeichnet; I/J in Fraktur: wie Vorlage; langes s (&#x017F;): wie Vorlage; Seitenumbrüche markiert: ja; Silbentrennung: wie Vorlage; u/v bzw.
+					U/V: wie Vorlage; Vokale mit übergest. e: wie Vorlage; Zeichensetzung: wie Vorlage (Bindestrich als Gleichheitszeichen); Zeilenumbrüche markiert: ja; Zahlen; konsequent in Antiqua gesetzt; Schwer bzw. nicht entzifferbare Zeichen
+					und Auslassungen markiert: durch Fragezeichen markiert;</p>
+			</editorialDecl>
+			<tagsDecl>
+				<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+				<!-- Wechsel zur Antiqua-Schrift in Fraktur-Werken-->
+				<rendition scheme="css" xml:id="et">display:block; margin-left:2em;</rendition>
+				<!-- eingerückter Text-->
+				<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+				<!--zentrierter Text-->
+				<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+				<!-- rechtsbündiger Text-->
+				<rendition scheme="css" xml:id="in">font-size:300%</rendition>
+				<!--Initiale, Schmuckinitiale-->
+				<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+				<!-- Sperrdruck-->
+				<rendition scheme="css" xml:id="b">font-weight: bold</rendition>
+				<!-- Fettdruck-->
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="deu">German</language>
+			</langUsage>
+			<textClass>
+				<classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Zeitung</classCode>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<facsimile xml:id="facs_81">
+		<surface ulx="0" uly="0" lrx="1175" lry="1782">
+			<graphic url="904462.jpg" width="1175px" height="1782px"/>
+			<zone points="57,76 57,1748 1127,1748 1127,76" rendition="TextRegion" xml:id="facs_81_r1">
+				<zone points="561,112 578,110 582,114 592,108 595,111 600,107 602,109 617,93 623,93 618,51 611,51 599,60 594,56 593,58 585,57 579,62 569,56 564,61 555,61" rendition="Line" xml:id="facs_81_r1l1"/>
+				<zone points="288,167 319,185 360,165 437,183 490,167 908,182 896,105 288,109" rendition="Line" xml:id="facs_81_r1l2"/>
+				<zone points="64,194 194,225 1132,226 1132,174 64,165" rendition="Line" xml:id="facs_81_r1l3"/>
+				<zone points="106,236 1134,265 1134,226 1067,217 106,212" rendition="Line" xml:id="facs_81_r1l4"/>
+				<zone points="87,293 1123,294 1123,256 274,261 87,232" rendition="Line" xml:id="facs_81_r1l5"/>
+				<zone points="58,334 1121,335 1121,296 1083,291 58,293" rendition="Line" xml:id="facs_81_r1l6"/>
+				<zone points="61,363 1127,367 1127,334 1067,330 61,332" rendition="Line" xml:id="facs_81_r1l7"/>
+				<zone points="62,402 1128,405 1112,365 62,363" rendition="Line" xml:id="facs_81_r1l8"/>
+				<zone points="66,437 1124,442 1124,408 1084,406 66,409" rendition="Line" xml:id="facs_81_r1l9"/>
+				<zone points="63,481 1126,495 1126,441 63,437" rendition="Line" xml:id="facs_81_r1l10"/>
+				<zone points="60,518 861,516 861,482 775,476 60,477" rendition="Line" xml:id="facs_81_r1l11"/>
+				<zone points="93,553 1124,565 1124,518 966,508 93,514" rendition="Line" xml:id="facs_81_r1l12"/>
+				<zone points="58,585 1130,599 1130,563 1072,554 58,549" rendition="Line" xml:id="facs_81_r1l13"/>
+				<zone points="60,629 1131,651 1104,592 60,587" rendition="Line" xml:id="facs_81_r1l14"/>
+				<zone points="62,664 87,666 118,661 132,669 144,665 152,673 165,666 173,671 181,663 195,665 196,629 182,627 162,639 139,626 117,635 100,629 94,633 84,629 63,633" rendition="Line" xml:id="facs_81_r1l15"/>
+				<zone points="108,703 1126,703 1091,658 108,662" rendition="Line" xml:id="facs_81_r1l16"/>
+				<zone points="57,742 1089,761 1132,744 1132,700 57,703" rendition="Line" xml:id="facs_81_r1l17"/>
+				<zone points="57,776 1024,789 992,740 57,742" rendition="Line" xml:id="facs_81_r1l18"/>
+				<zone points="97,819 1095,824 1124,772 97,776" rendition="Line" xml:id="facs_81_r1l19"/>
+				<zone points="60,855 1132,858 1132,817 1031,811 60,801" rendition="Line" xml:id="facs_81_r1l20"/>
+				<zone points="54,900 1079,915 1079,865 1026,856 54,857" rendition="Line" xml:id="facs_81_r1l21"/>
+				<zone points="406,942 458,941 471,928 534,943 622,925 669,937 769,933 768,896 737,892 647,892 625,903 563,891 476,903 466,893 405,894" rendition="Line" xml:id="facs_81_r1l22"/>
+				<zone points="83,972 1126,982 1106,914 1028,942 936,912 741,942 83,929" rendition="Line" xml:id="facs_81_r1l23"/>
+				<zone points="58,1014 1125,1012 1125,980 1074,972 58,972" rendition="Line" xml:id="facs_81_r1l24"/>
+				<zone points="55,1049 1091,1058 1127,1051 1127,1009 55,1013" rendition="Line" xml:id="facs_81_r1l25"/>
+				<zone points="66,1083 1132,1087 1132,1057 945,1048 67,1057" rendition="Line" xml:id="facs_81_r1l26"/>
+				<zone points="64,1118 1122,1125 1121,1090 1062,1086 64,1081" rendition="Line" xml:id="facs_81_r1l27"/>
+				<zone points="70,1162 1132,1165 1124,1123 70,1120" rendition="Line" xml:id="facs_81_r1l28"/>
+				<zone points="54,1197 1048,1212 1123,1199 1124,1170 54,1174" rendition="Line" xml:id="facs_81_r1l29"/>
+				<zone points="66,1244 877,1259 1125,1243 1125,1198 66,1199" rendition="Line" xml:id="facs_81_r1l30"/>
+				<zone points="57,1281 151,1268 599,1283 620,1278 620,1242 57,1245" rendition="Line" xml:id="facs_81_r1l31"/>
+				<zone points="94,1313 1120,1313 1120,1264 1075,1261 95,1276" rendition="Line" xml:id="facs_81_r1l32"/>
+				<zone points="57,1352 1132,1368 1132,1325 1093,1312 57,1317" rendition="Line" xml:id="facs_81_r1l33"/>
+				<zone points="63,1397 113,1386 180,1396 193,1386 213,1391 226,1383 251,1398 289,1395 308,1387 308,1350 215,1359 160,1347 121,1361 63,1353" rendition="Line" xml:id="facs_81_r1l34"/>
+				<zone points="377,1432 429,1440 490,1429 509,1442 527,1430 606,1442 713,1433 742,1444 772,1433 773,1391 747,1379 698,1389 684,1378 642,1393 550,1373 519,1385 378,1373" rendition="Line" xml:id="facs_81_r1l35"/>
+				<zone points="94,1480 1125,1467 1125,1435 799,1414 692,1441 94,1427" rendition="Line" xml:id="facs_81_r1l36"/>
+				<zone points="60,1510 1083,1529 1122,1521 1122,1468 60,1480" rendition="Line" xml:id="facs_81_r1l37"/>
+				<zone points="66,1552 427,1553 483,1536 655,1560 699,1547 699,1507 66,1511" rendition="Line" xml:id="facs_81_r1l38"/>
+				<zone points="102,1591 1128,1589 1100,1552 890,1525 654,1560 102,1544" rendition="Line" xml:id="facs_81_r1l39"/>
+				<zone points="51,1637 1082,1630 1031,1580 51,1585" rendition="Line" xml:id="facs_81_r1l40"/>
+				<zone points="358,1666 787,1676 811,1663 811,1623 754,1633 684,1619 646,1636 568,1636 358,1622" rendition="Line" xml:id="facs_81_r1l41"/>
+				<zone points="91,1702 1129,1701 1129,1666 1068,1660 91,1656" rendition="Line" xml:id="facs_81_r1l42"/>
+				<zone points="54,1751 1109,1755 1109,1702 54,1694" rendition="Line" xml:id="facs_81_r1l43"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_82">
+		<surface ulx="0" uly="0" lrx="1170" lry="1803">
+			<graphic url="904463.jpg" width="1170px" height="1803px"/>
+			<zone points="43,84 43,1769 1118,1769 1118,84" rendition="TextRegion" xml:id="facs_82_r1">
+				<zone points="36,111 1120,111 1120,67 36,67" rendition="Line" xml:id="facs_82_r1l1"/>
+				<zone points="44,159 1112,154 1080,115 44,115" rendition="Line" xml:id="facs_82_r1l2"/>
+				<zone points="44,192 1120,199 1120,150 44,159" rendition="Line" xml:id="facs_82_r1l3"/>
+				<zone points="38,228 1121,234 1121,199 1050,187 38,194" rendition="Line" xml:id="facs_82_r1l4"/>
+				<zone points="47,273 78,274 106,262 136,264 147,274 163,263 209,272 226,264 260,271 309,265 309,229 207,233 163,221 154,230 96,237 47,227" rendition="Line" xml:id="facs_82_r1l5"/>
+				<zone points="77,311 1115,305 1115,273 1005,253 77,264" rendition="Line" xml:id="facs_82_r1l6"/>
+				<zone points="38,344 1122,351 1122,310 1053,299 38,297" rendition="Line" xml:id="facs_82_r1l7"/>
+				<zone points="39,388 814,381 795,341 39,344" rendition="Line" xml:id="facs_82_r1l8"/>
+				<zone points="66,417 1011,441 1112,428 1113,380 66,383" rendition="Line" xml:id="facs_82_r1l9"/>
+				<zone points="51,454 973,474 944,417 51,419" rendition="Line" xml:id="facs_82_r1l10"/>
+				<zone points="355,514 414,518 438,500 577,515 633,504 668,520 775,508 775,480 728,464 710,476 682,458 612,483 459,448 409,470 391,458 355,468" rendition="Line" xml:id="facs_82_r1l11"/>
+				<zone points="67,550 1074,558 1125,554 1125,494 67,509" rendition="Line" xml:id="facs_82_r1l12"/>
+				<zone points="36,589 1118,590 1107,549 36,550" rendition="Line" xml:id="facs_82_r1l13"/>
+				<zone points="47,627 1102,633 1123,590 47,604" rendition="Line" xml:id="facs_82_r1l14"/>
+				<zone points="46,665 1124,660 1124,630 1018,623 46,627" rendition="Line" xml:id="facs_82_r1l15"/>
+				<zone points="45,707 1119,697 1119,668 1043,661 46,665" rendition="Line" xml:id="facs_82_r1l16"/>
+				<zone points="48,744 1067,750 1116,745 1116,698 48,706" rendition="Line" xml:id="facs_82_r1l17"/>
+				<zone points="80,786 1105,784 1118,736 79,736" rendition="Line" xml:id="facs_82_r1l18"/>
+				<zone points="48,814 1116,819 1096,777 48,778" rendition="Line" xml:id="facs_82_r1l19"/>
+				<zone points="54,858 1059,862 1120,826 54,811" rendition="Line" xml:id="facs_82_r1l20"/>
+				<zone points="41,890 1112,897 1112,859 977,849 41,858" rendition="Line" xml:id="facs_82_r1l21"/>
+				<zone points="41,929 988,937 1121,925 1121,897 41,898" rendition="Line" xml:id="facs_82_r1l22"/>
+				<zone points="52,963 1123,965 1095,923 52,927" rendition="Line" xml:id="facs_82_r1l23"/>
+				<zone points="42,1005 1125,1012 1125,966 1072,961 42,964" rendition="Line" xml:id="facs_82_r1l24"/>
+				<zone points="41,1039 1116,1040 1116,1008 1036,999 41,1005" rendition="Line" xml:id="facs_82_r1l25"/>
+				<zone points="46,1084 1118,1080 1102,1039 46,1040" rendition="Line" xml:id="facs_82_r1l26"/>
+				<zone points="47,1118 1082,1122 1115,1083 47,1084" rendition="Line" xml:id="facs_82_r1l27"/>
+				<zone points="43,1154 1122,1158 1095,1112 43,1119" rendition="Line" xml:id="facs_82_r1l28"/>
+				<zone points="51,1191 1116,1190 1116,1158 950,1148 51,1154" rendition="Line" xml:id="facs_82_r1l29"/>
+				<zone points="41,1229 1114,1237 1105,1188 41,1198" rendition="Line" xml:id="facs_82_r1l30"/>
+				<zone points="42,1269 1116,1267 1116,1236 1018,1224 42,1232" rendition="Line" xml:id="facs_82_r1l31"/>
+				<zone points="42,1304 1094,1313 1122,1264 42,1270" rendition="Line" xml:id="facs_82_r1l32"/>
+				<zone points="42,1351 1117,1353 1117,1316 1050,1303 42,1308" rendition="Line" xml:id="facs_82_r1l33"/>
+				<zone points="46,1383 1119,1396 1109,1351 957,1336 46,1351" rendition="Line" xml:id="facs_82_r1l34"/>
+				<zone points="51,1426 1043,1415 1008,1379 51,1380" rendition="Line" xml:id="facs_82_r1l35"/>
+				<zone points="86,1465 1112,1460 1112,1423 1050,1411 86,1420" rendition="Line" xml:id="facs_82_r1l36"/>
+				<zone points="42,1503 1119,1495 1119,1456 42,1450" rendition="Line" xml:id="facs_82_r1l37"/>
+				<zone points="44,1538 1047,1540 1110,1535 1110,1495 44,1502" rendition="Line" xml:id="facs_82_r1l38"/>
+				<zone points="41,1577 1120,1583 1120,1526 41,1542" rendition="Line" xml:id="facs_82_r1l39"/>
+				<zone points="43,1614 1118,1616 1118,1578 1064,1568 43,1574" rendition="Line" xml:id="facs_82_r1l40"/>
+				<zone points="51,1656 1083,1656 1119,1615 51,1617" rendition="Line" xml:id="facs_82_r1l41"/>
+				<zone points="50,1688 1034,1695 1115,1688 1115,1647 50,1656" rendition="Line" xml:id="facs_82_r1l42"/>
+				<zone points="42,1724 1111,1731 1084,1684 42,1687" rendition="Line" xml:id="facs_82_r1l43"/>
+				<zone points="42,1770 1114,1762 1081,1721 42,1724" rendition="Line" xml:id="facs_82_r1l44"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_83">
+		<surface ulx="0" uly="0" lrx="1163" lry="1791">
+			<graphic url="904464.jpg" width="1163px" height="1791px"/>
+			<zone points="59,50 59,1732 1132,1732 1132,50" rendition="TextRegion" xml:id="facs_83_r1">
+				<zone points="65,92 1099,88 1135,82 1135,34 64,29" rendition="Line" xml:id="facs_83_r1l1"/>
+				<zone points="61,129 1094,129 1126,80 61,93" rendition="Line" xml:id="facs_83_r1l2"/>
+				<zone points="57,172 1126,158 1126,126 1026,119 57,126" rendition="Line" xml:id="facs_83_r1l3"/>
+				<zone points="59,208 1129,201 1129,158 58,172" rendition="Line" xml:id="facs_83_r1l4"/>
+				<zone points="64,241 1059,241 1123,234 1123,203 64,207" rendition="Line" xml:id="facs_83_r1l5"/>
+				<zone points="90,276 1071,279 1131,270 1131,231 90,242" rendition="Line" xml:id="facs_83_r1l6"/>
+				<zone points="55,319 1091,316 1127,269 55,271" rendition="Line" xml:id="facs_83_r1l7"/>
+				<zone points="57,351 1126,354 1126,315 57,319" rendition="Line" xml:id="facs_83_r1l8"/>
+				<zone points="57,396 1132,381 1131,350 1047,341 57,351" rendition="Line" xml:id="facs_83_r1l9"/>
+				<zone points="62,431 984,445 1129,429 1129,382 62,396" rendition="Line" xml:id="facs_83_r1l10"/>
+				<zone points="64,472 607,471 607,437 562,426 64,432" rendition="Line" xml:id="facs_83_r1l11"/>
+				<zone points="92,506 1068,506 1129,494 1129,456 866,471 708,437 631,472 92,468" rendition="Line" xml:id="facs_83_r1l12"/>
+				<zone points="61,544 1128,539 1127,495 1095,492 61,502" rendition="Line" xml:id="facs_83_r1l13"/>
+				<zone points="57,579 1129,573 1128,538 1050,533 56,544" rendition="Line" xml:id="facs_83_r1l14"/>
+				<zone points="58,623 1122,630 1131,572 57,579" rendition="Line" xml:id="facs_83_r1l15"/>
+				<zone points="55,666 174,650 394,665 557,654 557,625 500,617 55,623" rendition="Line" xml:id="facs_83_r1l16"/>
+				<zone points="91,699 1037,711 1137,695 1137,653 837,626 91,662" rendition="Line" xml:id="facs_83_r1l17"/>
+				<zone points="52,733 318,750 515,723 628,749 733,730 733,703 620,688 52,694" rendition="Line" xml:id="facs_83_r1l18"/>
+				<zone points="382,778 518,770 540,784 634,768 655,783 738,772 763,783 786,772 786,710 755,708 677,744 570,741 547,724 512,742 479,727 426,740 381,731" rendition="Line" xml:id="facs_83_r1l19"/>
+				<zone points="95,809 1137,810 1098,770 95,758" rendition="Line" xml:id="facs_83_r1l20"/>
+				<zone points="54,853 1095,849 1134,845 1134,809 54,818" rendition="Line" xml:id="facs_83_r1l21"/>
+				<zone points="57,890 1137,879 1114,844 57,849" rendition="Line" xml:id="facs_83_r1l22"/>
+				<zone points="58,930 1131,927 1131,890 1092,883 58,890" rendition="Line" xml:id="facs_83_r1l23"/>
+				<zone points="62,973 84,974 104,959 127,959 143,971 158,960 229,970 243,959 281,971 339,968 339,928 279,923 155,936 61,923" rendition="Line" xml:id="facs_83_r1l24"/>
+				<zone points="93,997 1094,1004 1130,999 1130,955 93,961" rendition="Line" xml:id="facs_83_r1l25"/>
+				<zone points="59,1036 1128,1041 1128,1001 1083,994 59,1004" rendition="Line" xml:id="facs_83_r1l26"/>
+				<zone points="56,1078 1128,1071 1092,1029 56,1037" rendition="Line" xml:id="facs_83_r1l27"/>
+				<zone points="56,1113 1000,1119 1128,1108 1128,1075 56,1079" rendition="Line" xml:id="facs_83_r1l28"/>
+				<zone points="58,1153 1122,1153 1130,1114 58,1115" rendition="Line" xml:id="facs_83_r1l29"/>
+				<zone points="58,1197 1137,1178 1056,1145 58,1153" rendition="Line" xml:id="facs_83_r1l30"/>
+				<zone points="55,1235 1136,1223 1093,1183 55,1196" rendition="Line" xml:id="facs_83_r1l31"/>
+				<zone points="59,1282 114,1260 968,1258 968,1234 905,1223 59,1223" rendition="Line" xml:id="facs_83_r1l32"/>
+				<zone points="97,1303 1122,1316 1138,1253 97,1263" rendition="Line" xml:id="facs_83_r1l33"/>
+				<zone points="54,1359 456,1336 864,1351 864,1309 791,1300 54,1304" rendition="Line" xml:id="facs_83_r1l34"/>
+				<zone points="309,1383 887,1388 887,1353 803,1338 741,1355 309,1340" rendition="Line" xml:id="facs_83_r1l35"/>
+				<zone points="84,1428 1134,1421 1113,1382 84,1379" rendition="Line" xml:id="facs_83_r1l36"/>
+				<zone points="55,1463 1128,1457 1109,1420 55,1415" rendition="Line" xml:id="facs_83_r1l37"/>
+				<zone points="58,1498 1127,1497 1127,1462 1042,1459 58,1462" rendition="Line" xml:id="facs_83_r1l38"/>
+				<zone points="59,1534 1128,1543 1128,1496 1085,1494 59,1498" rendition="Line" xml:id="facs_83_r1l39"/>
+				<zone points="65,1574 1122,1585 1122,1543 1086,1535 65,1534" rendition="Line" xml:id="facs_83_r1l40"/>
+				<zone points="58,1614 1127,1611 1097,1570 58,1573" rendition="Line" xml:id="facs_83_r1l41"/>
+				<zone points="55,1657 1127,1654 1062,1609 55,1617" rendition="Line" xml:id="facs_83_r1l42"/>
+				<zone points="87,1694 1123,1699 1102,1647 87,1650" rendition="Line" xml:id="facs_83_r1l43"/>
+				<zone points="55,1727 1128,1737 1128,1703 1077,1689 55,1686" rendition="Line" xml:id="facs_83_r1l44"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_84">
+		<surface ulx="0" uly="0" lrx="1208" lry="1777">
+			<graphic url="904465.jpg" width="1208px" height="1777px"/>
+			<zone points="59,61 59,1756 1150,1756 1150,61" rendition="TextRegion" xml:id="facs_84_r1">
+				<zone points="78,92 1156,121 1157,67 1021,57 753,81 80,43" rendition="Line" xml:id="facs_84_r1l1"/>
+				<zone points="79,125 1152,153 1152,121 1050,111 80,92" rendition="Line" xml:id="facs_84_r1l2"/>
+				<zone points="82,166 1151,195 1123,151 83,128" rendition="Line" xml:id="facs_84_r1l3"/>
+				<zone points="81,207 1144,225 1091,184 81,165" rendition="Line" xml:id="facs_84_r1l4"/>
+				<zone points="77,246 1151,273 1152,223 78,207" rendition="Line" xml:id="facs_84_r1l5"/>
+				<zone points="79,285 1126,309 1151,273 80,250" rendition="Line" xml:id="facs_84_r1l6"/>
+				<zone points="113,323 1135,343 1144,307 113,281" rendition="Line" xml:id="facs_84_r1l7"/>
+				<zone points="70,361 1148,379 1123,337 71,312" rendition="Line" xml:id="facs_84_r1l8"/>
+				<zone points="73,396 1129,436 1149,380 73,363" rendition="Line" xml:id="facs_84_r1l9"/>
+				<zone points="77,432 507,444 507,402 78,395" rendition="Line" xml:id="facs_84_r1l10"/>
+				<zone points="113,477 1148,490 1149,440 1104,434 114,432" rendition="Line" xml:id="facs_84_r1l11"/>
+				<zone points="73,517 1084,550 1146,531 1147,492 74,469" rendition="Line" xml:id="facs_84_r1l12"/>
+				<zone points="69,547 123,544 152,554 164,548 199,554 227,547 254,550 255,511 231,519 208,510 190,519 173,510 157,513 145,507 138,512 133,507 69,519" rendition="Line" xml:id="facs_84_r1l13"/>
+				<zone points="112,587 1044,623 1144,617 1145,547 112,547" rendition="Line" xml:id="facs_84_r1l14"/>
+				<zone points="73,630 100,632 112,620 182,633 201,625 261,637 270,628 411,637 422,633 423,600 370,591 334,600 275,584 220,596 161,586 117,593 74,572" rendition="Line" xml:id="facs_84_r1l15"/>
+				<zone points="107,669 1149,690 1150,629 1088,624 108,623" rendition="Line" xml:id="facs_84_r1l16"/>
+				<zone points="67,701 1144,711 1114,677 68,670" rendition="Line" xml:id="facs_84_r1l17"/>
+				<zone points="71,738 1143,749 1123,715 72,699" rendition="Line" xml:id="facs_84_r1l18"/>
+				<zone points="65,778 1139,811 1140,753 1078,748 66,746" rendition="Line" xml:id="facs_84_r1l19"/>
+				<zone points="65,814 222,816 251,830 276,817 383,819 409,832 478,827 479,792 221,782 201,793 66,778" rendition="Line" xml:id="facs_84_r1l20"/>
+				<zone points="106,856 1055,864 1147,891 1148,821 106,817" rendition="Line" xml:id="facs_84_r1l21"/>
+				<zone points="67,900 1010,909 1028,873 68,856" rendition="Line" xml:id="facs_84_r1l22"/>
+				<zone points="106,929 1145,940 1145,908 1042,897 106,891" rendition="Line" xml:id="facs_84_r1l23"/>
+				<zone points="62,970 1020,991 1137,978 1138,941 63,923" rendition="Line" xml:id="facs_84_r1l24"/>
+				<zone points="61,1004 1138,1017 1138,978 62,975" rendition="Line" xml:id="facs_84_r1l25"/>
+				<zone points="63,1047 1136,1057 1136,1014 64,1006" rendition="Line" xml:id="facs_84_r1l26"/>
+				<zone points="61,1087 1041,1097 1041,1063 977,1051 62,1048" rendition="Line" xml:id="facs_84_r1l27"/>
+				<zone points="354,1126 857,1128 857,1090 735,1085 698,1100 354,1081" rendition="Line" xml:id="facs_84_r1l28"/>
+				<zone points="99,1164 1080,1184 1138,1172 1139,1117 99,1121" rendition="Line" xml:id="facs_84_r1l29"/>
+				<zone points="61,1205 1070,1217 1140,1214 1141,1182 61,1159" rendition="Line" xml:id="facs_84_r1l30"/>
+				<zone points="65,1247 1134,1253 1114,1210 66,1205" rendition="Line" xml:id="facs_84_r1l31"/>
+				<zone points="65,1278 1112,1297 1136,1253 66,1248" rendition="Line" xml:id="facs_84_r1l32"/>
+				<zone points="61,1318 1139,1334 1139,1288 1096,1285 61,1283" rendition="Line" xml:id="facs_84_r1l33"/>
+				<zone points="57,1355 1133,1373 1133,1333 959,1317 58,1316" rendition="Line" xml:id="facs_84_r1l34"/>
+				<zone points="65,1393 1149,1413 1149,1367 1090,1360 66,1355" rendition="Line" xml:id="facs_84_r1l35"/>
+				<zone points="65,1439 1132,1445 1132,1404 1072,1399 65,1393" rendition="Line" xml:id="facs_84_r1l36"/>
+				<zone points="65,1469 1135,1481 1121,1447 1020,1435 66,1437" rendition="Line" xml:id="facs_84_r1l37"/>
+				<zone points="383,1510 439,1523 459,1508 557,1513 588,1527 602,1516 835,1519 835,1476 383,1475" rendition="Line" xml:id="facs_84_r1l38"/>
+				<zone points="98,1539 1128,1557 1128,1515 1088,1507 99,1508" rendition="Line" xml:id="facs_84_r1l39"/>
+				<zone points="52,1586 1115,1615 1140,1558 52,1550" rendition="Line" xml:id="facs_84_r1l40"/>
+				<zone points="59,1637 955,1635 955,1606 896,1594 59,1590" rendition="Line" xml:id="facs_84_r1l41"/>
+				<zone points="100,1675 1135,1680 1136,1630 101,1621" rendition="Line" xml:id="facs_84_r1l42"/>
+				<zone points="60,1703 1119,1731 1119,1679 1063,1673 60,1663" rendition="Line" xml:id="facs_84_r1l43"/>
+				<zone points="66,1754 139,1766 206,1749 275,1767 327,1749 454,1768 455,1717 439,1707 363,1704 332,1717 292,1704 271,1716 229,1702 213,1717 67,1704" rendition="Line" xml:id="facs_84_r1l44"/>
+				<zone points="643,1758 667,1751 716,1773 747,1743 764,1753 804,1746 820,1755 843,1745 866,1762 880,1760 881,1712 856,1704 817,1725 792,1706 749,1719 701,1704 689,1714 643,1709" rendition="Line" xml:id="facs_84_r1l45"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div type="issue">
+				<pb facs="#facs_81" n="81"/>
+				<head rendition="#c">
+					<lb facs="#facs_81_r1l1" n="N001"/>52.</head>
+				<div type="letter" ana="date:1618-12-10 place:Graubünden">
+					<head rendition="#c #b">
+						<lb facs="#facs_81_r1l2" n="N002"/>Auß <placeName>Graupünten</placeName> vom 10. Decemb. 1618.</head>
+					<p>
+						<lb facs="#facs_81_r1l3" n="N003"/><hi rendition="#in">U</hi>Nsere Straffgericht continuiren noch/ werden auff den altẽ S. Thomas
+						<lb facs="#facs_81_r1l4" n="N004"/>tag zu ende lauffen/ Der Edelmann <hi><persName>S. Diatti</persName>,</hi> ſo vnlengſt zu <placeName>Thuſis</placeName> ge=
+						<lb facs="#facs_81_r1l5" n="N005"/>richt worden/ hat bekannt/ daß er mit etlichen andern im Velt in (die er
+						<lb facs="#facs_81_r1l6" n="N006"/>namhafft gemacht) ein anſchlag gemacht/ ſie wollẽ ſich gar familiar gegen den Eu=
+						<lb facs="#facs_81_r1l7" n="N007"/>angeliſchen im ſelbigen Land ſtellen/ nach vñ nach jre Wehr vnd Waffen von jnen
+						<lb facs="#facs_81_r1l8" n="N008"/>entliehen/ hernach in der Venediger Gebiet in <placeName>Bergamaſco</placeName> ein anzahl Banditen
+						<lb facs="#facs_81_r1l9" n="N009"/>vnverſehens ins Land führen/ vnnd mit denſelbigen die Euangeliſchen vberfallen/
+						<lb facs="#facs_81_r1l10" n="N010"/>Er hat ohne das einen Euangeliſchen vnd einen Catholiſchen erschoſſen/ hat auff
+						<lb facs="#facs_81_r1l11" n="N011"/>der Toll im Veltlin gewohnt/ vnd einen vornemmen Vatter.</p>
+					<p>
+						<lb facs="#facs_81_r1l12" n="N012"/> Der <persName>Biſchoff von Chur</persName> ſoll gewiß geſtorben/ vnd ſein <placeName>Schloſſz Fürſtenburg</placeName> in
+						<lb facs="#facs_81_r1l13" n="N013"/><placeName>Etſchland</placeName>/ ſo doch zum <placeName>Biſthumb Chur</placeName> gehört/ an welchem ort der Schwaben=
+						<lb facs="#facs_81_r1l14" n="N014"/>krieg/ An. 1499. ſeinen anfang genommen/ von den Oeſterreichiſchen eyngenom=
+						<lb facs="#facs_81_r1l15" n="N015"/>men seyn.</p>
+					<p>
+						<lb facs="#facs_81_r1l16" n="N016"/>Es zeucht täglich viel Volcks gen <placeName>Meyland</placeName>/ vnd wider hinweg/ man gibt auß/
+						<lb facs="#facs_81_r1l17" n="N017"/>es ſolle etlich Volck in <placeName>Sardinien</placeName> geſandt werden/ vnd wirdt immerdar ein Spa=
+						<lb facs="#facs_81_r1l18" n="N018"/>niſche Wacht im <placeName>Saraguſerlandt</placeName> an der Pündteriſchen Grentz erhalten.</p>
+					<p>
+						<lb facs="#facs_81_r1l19" n="N019"/>Ein ſchön Teutſch Volck mit ſchöne Pferden zeucht durch die Pündt/ vñ wie
+						<lb facs="#facs_81_r1l20" n="N020"/>ſie vorgebẽ/ den Venedigern zu/ ſonſten ſeyn die Banditen <persName>Pompeius</persName>/ vñ <persName>Rudolff
+						<lb facs="#facs_81_r1l21" n="N021"/>Planta</persName> ſehr vnrühig/ ſuchen bey den 7. Catholiſchen Orten hilff/ ſich zu rechen. </p>
+				</div>
+				<div type="letter" ana="date:1618-12-10 place:Lyon">
+					<head rendition="#c #b">
+						<lb facs="#facs_81_r1l22" n="N022"/>Auß <placeName>Lion</placeName> vom 12. Ditto.</head>
+					<p>
+						<lb facs="#facs_81_r1l23" n="N023"/> Die Sachẽ mit <placeName>Bearn</placeName> laſſen ſich anſehẽ/ als wolt es ſich zu einer Vergleichung
+						<lb facs="#facs_81_r1l24" n="N024"/>ſchicken/ vnd wirt von <placeName>Pariß</placeName> confirmiert/ daß der Heurath mit dem <persName>Printzen Vit=
+						<lb facs="#facs_81_r1l25" n="N025"/>torio von Sauoia</persName>/ vnnd deß <persName>Königs in Franckreich Schweſter</persName>/ ſeinen gewiſſen
+						<lb facs="#facs_81_r1l26" n="N026"/>fortgang hab/ vnnd die Hochzeit gegen künfftigen Martio allhie gehalten werden
+						<lb facs="#facs_81_r1l27" n="N027"/>ſolle/ Vnd ſolle der <persName>König</persName> allen Predicanten in <placeName>Franckreich</placeName>/ auff den National
+						<lb facs="#facs_81_r1l28" n="N028"/>Synodum zu ziehen/ bey Leibſtraff verbotten haben/ Der <hi><persName>Duc de Montbaſſon</persName></hi> iſt
+						<lb facs="#facs_81_r1l29" n="N029"/>auß <placeName>Engellandt</placeName> wider zurück kommen/ hat <persName>die alte Königin</persName> beſucht/ man ſagt/ die=
+						<lb facs="#facs_81_r1l30" n="N030"/>ſelbe werde ſich von <placeName>Blois</placeName> nach <placeName>Molins</placeName> begeben/ vnnd wirdt geſchrieben/ daß die
+						<lb facs="#facs_81_r1l31" n="N031"/><hi>port Demers </hi>in <placeName>Engellandt</placeName> geſchloſſen ſey.</p>
+					<p>
+						<lb facs="#facs_81_r1l32" n="N032"/>Der <persName>Graupünteriſch Geſandter/ Herr oberſter Guler</persName>/ hat von jrer <persName>Kön. Maj.</persName>
+						<lb facs="#facs_81_r1l33" n="N033"/>etc. guten beſcheidt bekommen/ iſt zum Ritter geſchlagen/ vnd jme ein güldene Ket=
+						<lb facs="#facs_81_r1l34" n="N034"/>tin verehrt worden. </p>
+				</div>
+				<div type="letter" ana="date:1618-12-15 place:Rom">
+					<head rendition="#c #b">
+						<lb facs="#facs_81_r1l35" n="N035"/>Auß <placeName>Rohm</placeName> vom 15. Ditto.</head>
+					<div type="subletter" ana="place:Neapel">
+						<p>
+							<lb facs="#facs_81_r1l36" n="N036"/> Zu <placeName>Neapoli</placeName> iſt 4. deß Doria: vnnd 2. der <hi>Sig. Sauli</hi> Galeren befohlen worden/
+							<lb facs="#facs_81_r1l37" n="N037"/>gegen die Corſaren im ſelben Meer außzufahren/ vnd iſt allda mit 3. Galeren auß
+							<lb facs="#facs_81_r1l38" n="N038"/><placeName>Sicilia</placeName> der <hi><persName>Marcheſe Michael Vais</persName></hi> angelangt.
+							<lb facs="#facs_81_r1l39" n="N039"/>Mit einer <hi>extraord. </hi>hat man auß <placeName>Spania</placeName>/ daß im ſelben <placeName>Königreich</placeName> 12000.
+							<lb facs="#facs_81_r1l40" n="N040"/>Mann zu Fuß geworben/ vnd alle außländiſche Vaſellen verarreſtirt werden. </p>
+					</div>
+				</div>
+				<div type="letter" ana="date:1618-12-21 place:Venedig">
+					<head rendition="#c #b">
+						<lb facs="#facs_81_r1l41" n="N041"/>Auß <placeName>Venedig</placeName> vom 21. Ditto.</head>
+					<div type="subletter" ana="place:Mailand">
+						<p>
+							<lb facs="#facs_81_r1l42" n="N042"/>Meyländiſche Brieff bringẽ/ der <persName><hi>Conte Della Torre</hi> Sauoiſcher Ambaſſator</persName>
+							<lb facs="#facs_81_r1l43" n="N043"/>hab das erſtemal beym <persName>Gub.</persName> audiens gehabt/ in welchem <persName>S. Exc.</persName> ſich gegen <persName>S. F <pb facs="#facs_82" n="82"/>
+							<lb facs="#facs_82_r1l1" n="N001"/>Gn.</persName> ſehr affectionirt erzeigt/ vnd ſolle der <persName>Amb.</persName> die erledigung deß vor dieſem gefan=
+							<lb facs="#facs_82_r1l2" n="N002"/>genen Sauoiſchen Secretarien ſollicitiren. Vnd hetten ſie auß <placeName>Spania</placeName>/ daß vber
+							<lb facs="#facs_82_r1l3" n="N003"/>vorige noch mehr Kriegsvolck in groſſer anzal zuſammen bracht werde/ vmb auff
+							<lb facs="#facs_82_r1l4" n="N004"/>die Meer Armada/ darüber der <persName><hi>principe Philiberto</hi> von Sauoia</persName> General ſeyn
+							<lb facs="#facs_82_r1l5" n="N005"/>ſolle/ zu gebrauchen.</p>
+						<p> </p>
+					</div>
+					<div type="subletter" ana="place:Turin">
+						<p>
+							<lb facs="#facs_82_r1l6" n="N006"/> Von <placeName>Turino</placeName> wirdt geſchrieben/ daß ſelbiger <persName>Hertzog</persName> noch jmmerdar in geheim
+							<lb facs="#facs_82_r1l7" n="N007"/>Kriegsvolck werbe/ Man ſagt/ ſolle ein Jmpreſa/ mit deß Königs in Franckreich
+							<lb facs="#facs_82_r1l8" n="N008"/>hilffe/ obhanden haben/ wohin eigentlich/ iſt noch vnbewuſt.</p>
+						<p>
+							<lb facs="#facs_82_r1l9" n="N009"/> Diesen Abend hat man mit 2. Schiffen gewiß/ daß der <hi><persName>Ecc. Barbarigo</persName></hi> tods ver=
+							<lb facs="#facs_82_r1l10" n="N010"/>fahren/ vnd der <hi><persName>Ecc. Venier</persName>,</hi> als General/ wider zurück hieher kommen. </p>
+					</div>
+				</div>
+				<div type="letter" ana="date:1618-12-20 place:Wien">
+					<head rendition="#c #b">
+						<lb facs="#facs_82_r1l11" n="N011"/>Auß <placeName>Wien</placeName> vom 20. Ditto.</head>
+					<p>
+						<lb facs="#facs_82_r1l12" n="N012"/>Die <persName>Röm. Keyſerin/ Fraw Anna</persName>/ hochſeligſter gedächtnuß/ hat man 2. tag ſehen
+						<lb facs="#facs_82_r1l13" n="N013"/>laſſen/ welche in ſchwartzer klag angethã geweſen/ auff eim ſilbern ſtück/ vñ ſchwartz
+						<lb facs="#facs_82_r1l14" n="N014"/>ſammeten Küſſen/ neben der rechten Hand die Reichs: vnnd Böhmiſche: auff der
+						<lb facs="#facs_82_r1l15" n="N015"/>lincken hand die Hungeriſche Cron ob dem Haupt den Reichs Apffel vñ Scepter
+						<lb facs="#facs_82_r1l16" n="N016"/>ligend/ dañ 4. groſſe Leuchter mit weiſſen Windliechtern ſtehend gehabt/ dero Jnge=
+						<lb facs="#facs_82_r1l17" n="N017"/>weid iſt zu der Königin Cloſter begraben/ vñ der Leichnam auch dahin geſetzt wordẽ.</p>
+					<p>
+						<lb facs="#facs_82_r1l18" n="N018"/> Jre <persName>Keyſ. M.etc.</persName> haben den <persName>oberſten Hofmarſchalchen/ Herrn zu Lofenſtein</persName>/ zu
+						<lb facs="#facs_82_r1l19" n="N019"/>den Ständen in <placeName>Oeſterreich</placeName> ob der Enß geſchickt/ und begeren laſſen/ 1. die an der
+						<lb facs="#facs_82_r1l20" n="N020"/>Thonaw/ zu præjuditz den benachbarten auffgeworffene Schantz niderzureiſſen.
+						<lb facs="#facs_82_r1l21" n="N021"/>2. Die verhauwene Päſſz im <placeName>Freywald</placeName> gegen <placeName>Böheim</placeName>/ dem <hi><persName>Conte de Boucquoy</persName></hi>
+						<lb facs="#facs_82_r1l22" n="N022"/>zu eröffnen 3. Mit jme/ <hi><persName>Bouequoy</persName></hi>/ gute Correſpondentz zu halten/ vñ jr geworben
+						<lb facs="#facs_82_r1l23" n="N023"/>Volck zu den ſeinen zu ſtoſſen. 4. Winter Wahren/ ſo ihm geſchickt werden/ für die
+						<lb facs="#facs_82_r1l24" n="N024"/>Knecht/ vnd Munition zu lieffern. Darauff ſie ſich höchſtes entſchuldiget. 1. Were
+						<lb facs="#facs_82_r1l25" n="N025"/>die Schantz auff vnmittelbarm Oeſterreichiſchen Grundt vñ Boden/ zur Defen=
+						<lb facs="#facs_82_r1l26" n="N026"/>ſion deß Lands/ vnd gantz keiner Offenſion/ wie vor Jaren auch beſchehen/ auffge=
+						<lb facs="#facs_82_r1l27" n="N027"/>worffen worden. 2. Seye nit rathſam/ daß der verhauwene <placeName>Freywald</placeName> eröffnet wer=
+						<lb facs="#facs_82_r1l28" n="N028"/>de/ weil der Böhmen Volck an den Grentzen/ <hi><persName>Conte de Boucquoy</persName></hi> aber mit den
+						<lb facs="#facs_82_r1l29" n="N029"/>ſeinigen noch hinder denſelbigen ligt/ alſo jrer <persName>M.</persName> dieſe eröffnung nichts fürtragen
+						<lb facs="#facs_82_r1l30" n="N030"/>könne/ ſondern viel mehrers die Böhmen den Vortheil erſehen/ in das Land fallen/
+						<lb facs="#facs_82_r1l31" n="N031"/>vnnd hernach nit mehr ſo bald darauß zu bringen ſeyn möchten. 3. Sey die begerte
+						<lb facs="#facs_82_r1l32" n="N032"/>Correſpondentz/ der Böhmen halb/ ſehr gefährlich/ wie ſie deñ auch zu mehrer De=
+						<lb facs="#facs_82_r1l33" n="N033"/>fenſion deß Lands/ zu dem vorhin habenden wenigen Volck noch 1000. Mußket=
+						<lb facs="#facs_82_r1l34" n="N034"/>tirer werben müſſen. 4. Wolten die Winterwahren auff die Grenitzen lieffern/ da=
+						<lb facs="#facs_82_r1l35" n="N035"/>ſelbſten ſie aber der <hi><persName>Conte de Boucquoy</persName></hi> auff ſeine gefahr ſelbſt abholen ſolle.</p>
+					<p>
+						<lb facs="#facs_82_r1l36" n="N036"/> Dz in <placeName>Oeſterreich</placeName> ligend Böhmiſch Volck hat <placeName>Zwethal</placeName> verſchantzt vnd beſetzt /
+						<lb facs="#facs_82_r1l37" n="N037"/>hernach beſſer herauß auff <placeName>Räzen</placeName>/ <placeName>Hollaprun</placeName> vnd <placeName>Sitzendorff</placeName> verruckt/ ligen nur
+						<lb facs="#facs_82_r1l38" n="N038"/>7. Meil von hinnen/ <persName>Der alte Graff von Thurn</persName> ſoll mit 500. Mußkettirer/ vnnd
+						<lb facs="#facs_82_r1l39" n="N039"/>1500. Pferden auff <placeName>Prün</placeName> zu rücken/ zu vermuthen/ dem Mähreriſchen Landtag
+						<lb facs="#facs_82_r1l40" n="N040"/>nahe zu ſeyn/ hat in dieſem Landt/ doch jenſeit der Thonaw an die meiſten Stände
+						<lb facs="#facs_82_r1l41" n="N041"/>geſchrieben/ Obwol ſein heraußzug in diß Land bey etlichen ein ſeltzam anſehen ha=
+						<lb facs="#facs_82_r1l42" n="N042"/>ben möchte/ ſoll doch derſelb niemand ſchaden bringen/ ſich nur nit widerſetzen/ vnd
+						<lb facs="#facs_82_r1l43" n="N043"/>die Notturfft zuführen/ wollen alles vmb bar Gelt bezahlen/ keine Menſchen/ was
+						<lb facs="#facs_82_r1l44" n="N044"/>Religion der auch ſeye/ an nichten kein Schaden zufügen/ man beſorgt/ ſie werden <pb facs="#facs_83" n="83"/>
+						<lb facs="#facs_83_r1l1" n="N001"/>jenſeit der Thonaw ſich gantz <placeName>Oeſterreich</placeName> bemächtigen. </p>
+					<p>Wie der Vortrab vom
+						<lb facs="#facs_83_r1l2" n="N002"/>Mähreriſchen Landtag meldet/ ſo ſeyn die Mährer zu den Böhmen getretten/ wol=
+						<lb facs="#facs_83_r1l3" n="N003"/>len jr Volck zu jnen ſtoſſen/ damit weiter in <placeName>Oeſterreich</placeName> ziehen/ vnd die Confoedera=
+						<lb facs="#facs_83_r1l4" n="N004"/>tion der Länder befördern helffen/ <persName>Herr Cardinal von Dieterichſtein</persName> hat ſeine poli=
+						<lb facs="#facs_83_r1l5" n="N005"/>tiſche Empter reſignirt/ vnd iſt davon gezogẽ/ alſo auch der <persName>Fürſt von Liechtenſtein</persName>.</p>
+					<p>
+						<lb facs="#facs_83_r1l6" n="N006"/> Die Hungarn haben eine Zuſammenkunfft gehalten/ vñ <hi>abſolute</hi> geſchloſſen/
+						<lb facs="#facs_83_r1l7" n="N007"/>kein einigen Mann wider die Böheim zu ſchicken/ noch herauß zu laſſen/ auch ſol=
+						<lb facs="#facs_83_r1l8" n="N008"/>ches zu thun/ bey hoher Straff männiglich inhibirt/ weil aber die Böhmen bereit in
+						<lb facs="#facs_83_r1l9" n="N009"/><placeName>Oeſterreich</placeName> ſeyn/ wollen ſie ein Legation auß allen Ständen in <placeName>Böheimb</placeName> aborde=
+						<lb facs="#facs_83_r1l10" n="N010"/>nen/ die Vrſach/ warumb ſie in <placeName>Oeſterreich</placeName> gefallen/ vnd was jr Vorhaben ſeye?
+						<lb facs="#facs_83_r1l11" n="N011"/>befragen/ darnach ſie ſich zu richten haben.</p>
+					<p>
+						<lb facs="#facs_83_r1l12" n="N012"/> Dem <hi><persName>Conte de Boucquoy</persName></hi> ſeyn in 400. Hungarn außgeriſſen/ ziehen nach
+						<lb facs="#facs_83_r1l13" n="N013"/>Hauß/ denen iſt bey Spitz in <placeName>Oeſterreich</placeName> der Raub wider abgenommen/ jhrer viel
+						<lb facs="#facs_83_r1l14" n="N014"/>erlegt worden/ vnd ſolle der <hi><persName>Conte de Boucquoy</persName></hi> vber 4000. Mann/ zu Roſſz vnd
+						<lb facs="#facs_83_r1l15" n="N015"/>Fuß/ nicht mehr ſtarck ſeyn/ <persName>Herr Graff Tampier</persName> iſt noch zu <placeName>Crembs</placeName>/ vnd ſamblet
+						<lb facs="#facs_83_r1l16" n="N016"/>mehr Volck/ damit etwas zu tentiren.</p>
+					<p>
+						<lb facs="#facs_83_r1l17" n="N017"/> Hie iſt noch groß Schrecken/ vnd wirdt auſſenherum̃ mehrers geſchantzt/ <placeName>Kor=
+						<lb facs="#facs_83_r1l18" n="N018"/>neuburg</placeName> vnd <placeName>Cloſternenburg</placeName> ſeindt beſetzt worden. </p>
+				</div>
+				<div type="letter" ana="date:1618-12-23 place:Prag">
+					<head rendition="#c #b">
+						<lb facs="#facs_83_r1l19" n="N019"/>Auß <placeName>Prag</placeName> vom 23. Ditto.</head>
+					<div type="subletter" ana="place:Budweiß">
+						<p>
+							<lb facs="#facs_83_r1l20" n="N020"/>Von <placeName>Budweiß</placeName> iſt ein Currir kom̃en/ der bericht/ daß ſelbige Belägerung nun=
+							<lb facs="#facs_83_r1l21" n="N021"/>mehr continuirt/ es ſollen aber von den Keyſ. ober 500. Mañ nicht mehr darinnen
+							<lb facs="#facs_83_r1l22" n="N022"/>ſeyn/ die vbrigen habẽ ſich gegen <placeName>Crumau</placeName> wärts/ und von dar ins Biſthumb Paſ=
+							<lb facs="#facs_83_r1l23" n="N023"/>ſau ſaluirt/ gar viel ſeindt auß Hungersnoth zu der Stände Volck gefallen/ vnnd
+							<lb facs="#facs_83_r1l24" n="N024"/>theils gar entlauffen. </p>
+					</div>
+					<div type="subletter" ana="place:Mäherischer Landtag">
+						<p>
+							<lb facs="#facs_83_r1l25" n="N025"/> Es iſt den Ständen auch ein Currir vom Mähreriſchen Landtag kommen/ mit
+							<lb facs="#facs_83_r1l26" n="N026"/>dieſer Zeitung/ daß die Ober= vnd NiderOeſterreich: wie auch die Mähreriſchen
+							<lb facs="#facs_83_r1l27" n="N027"/>Euangeliſchen Stände ſich außdrücklichen erklärt/ bey den Herren Böhmen für
+							<lb facs="#facs_83_r1l28" n="N028"/>einen Mann zu ſtehen/ jr Volck mit den jrigen zu coniungiren/ auch Leib/ Gut vnd
+							<lb facs="#facs_83_r1l29" n="N029"/>Blut/ bey jnen auffzuſetzen/ wie dann allbereit angeordnet/ daß auff allen Cantzeln
+							<lb facs="#facs_83_r1l30" n="N030"/>das <hi>Te Deum laudamus</hi> geſungen werden ſolle. Es hat auch zu mehrer verſiche=
+							<lb facs="#facs_83_r1l31" n="N031"/>rung der <persName>Graff von Thurn</persName> die Statt <placeName>Znamb</placeName> in <placeName>Mährern</placeName>/ ſo gleich auff die N. O.
+							<lb facs="#facs_83_r1l32" n="N032"/>grentzen eyngenommen/ vnd beſetzt/ <persName>Herr Graff Schlick</persName> ligt zu Rätz.</p>
+						<p>
+							<lb facs="#facs_83_r1l33" n="N033"/> Es befind ſich ein <persName>NiderSächſiſcher Ritterſchafft Abgeordneter</persName> allhie/ welcher
+							<lb facs="#facs_83_r1l34" n="N034"/>den Ständen 3000. Mann zu Fuß/ vnd 1000. Pferd offerirt. </p>
+					</div>
+				</div>
+				<div type="letter" ana="date:1618-12-24 place:Gravenhage">
+					<head rendition="#c #b">
+						<lb facs="#facs_83_r1l35" n="N035"/>Auß deß <placeName>Gravenhage</placeName> vom 24. Ditto.</head>
+					<p>
+						<lb facs="#facs_83_r1l36" n="N036"/>Seither jüngſten ſind die 3. gefangene allhie nochmals examinirt/ vñ iſt <persName>Hoger=
+						<lb facs="#facs_83_r1l37" n="N037"/>beets</persName> in deß Ledenbergs Camer gebracht/ dz alſo zu vermuthen/ möchtẽ noch mehr
+						<lb facs="#facs_83_r1l38" n="N038"/>zu ſitzen kom̃en/ und verlaut/ daß der von <persName>Keſſel Gub. zu Häußden</persName>/ allhie ſchon in
+						<lb facs="#facs_83_r1l39" n="N039"/>Arreſt genommen. </p>
+					<p>Jnterim ſind zu <placeName>Vtrecht</placeName>/ der <persName>Herr von Seulenſtein</persName>/ der <persName>von
+						<lb facs="#facs_83_r1l40" n="N040"/>Maußbergen</persName>/ <persName>Königsfrey</persName> / und <persName>Monſ. Göyer</persName>/ auch verarreſtirt/ doch nach gelei=
+						<lb facs="#facs_83_r1l41" n="N041"/>ſter Caution wider relaxirt worden/ vnnd ſollen dieſelbe Commiſſarien mit den V=
+						<lb facs="#facs_83_r1l42" n="N042"/>trechtiſchen Ständen/ was mit dem <persName>Ledenberg</persName> zu machen/ ein Reſolution nem̃en.</p>
+					<p>
+						<lb facs="#facs_83_r1l43" n="N043"/> Die Herrn Staden ſind entſchloſſen/ in kurtzem eine Bottſchafft in <placeName>Franckreich</placeName>
+						<lb facs="#facs_83_r1l44" n="N044"/>abzufertigen/ ſelbigen <persName>König</persName> ven allem zu berichten/ was ein zeit hero in den vnier <pb facs="#facs_84" n="84"/>
+						<lb facs="#facs_84_r1l1" n="N001"/>ten Landen fürgenommen/ vnd verhandelt worden. </p>
+					<p>Wegen deß Kriegsweſens/
+						<lb facs="#facs_84_r1l2" n="N002"/>vnd wie alles in beſſere Ordnung möchte gebracht werden/ wird noch ſtarck gehan=
+						<lb facs="#facs_84_r1l3" n="N003"/>delt/ vnnd ſollen in jedtweder Prouintz etliche Deputirte zuſammen kommen/ von
+						<lb facs="#facs_84_r1l4" n="N004"/>denẽ darzu nötigen Mitteln/ vñ wie die auffzubring?/ berathſchlagen / <persName>S. Pr. Exc.</persName>
+						<lb facs="#facs_84_r1l5" n="N005"/>werden hinfüro das gantze Kriegs <hi>directorium</hi> haben/ vñ diß falls reſoluiren vnd
+						<lb facs="#facs_84_r1l6" n="N006"/>exeentiren/ wie deroſelben gefällig/ haben allbereit viel newe Befelchſhaber erkoren.</p>
+					<p>
+						<lb facs="#facs_84_r1l7" n="N007"/> <persName>Der jenige Kriegs Officirer/ ſo allhie im Namen der Böhmiſchen Stände an=
+						<lb facs="#facs_84_r1l8" n="N008"/>gelangt</persName>/ tractirt täglich mit der Herrn Staden Deputirtẽ/ vnd <persName>S. Pr. Exc.</persName> damit
+						<lb facs="#facs_84_r1l9" n="N009"/>die erſuchte Hilffe ehiſt folgen möge/ hat ſeine Schreiben an <persName>König in Engellandt</persName>
+						<lb facs="#facs_84_r1l10" n="N010"/>durch <persName>ſelbigen Amb.</persName> fortgeſandt.</p>
+					<p>
+						<lb facs="#facs_84_r1l11" n="N011"/> Jn dieſen Landen werden verſchiedene Gubernamenten/ ſonderlich vuff den
+						<lb facs="#facs_84_r1l12" n="N012"/>Frontiren/ verändert/ wie denn allbereit zu <placeName>Vtrecht</placeName>/ <placeName>Häußden</placeName> / vnnd anderer Or=
+						<lb facs="#facs_84_r1l13" n="N013"/>ten/ beſchehen.</p>
+					<p>
+						<lb facs="#facs_84_r1l14" n="N014"/> Man iſt hier vnd zu Delfft noch 8. Compagnien gewertig/ dörffte wol wegen der
+						<lb facs="#facs_84_r1l15" n="N015"/>Execution angeſehen ſeyn.</p>
+					<p>
+						<lb facs="#facs_84_r1l16" n="N016"/> Allhie haben etliche Armenianer/ wider der Herren Staden Verbott/ ſich in ei=
+						<lb facs="#facs_84_r1l17" n="N017"/>nem Hauß verſam̃let/ vnd offentlich predigen laſſen/ derwegen der Herr deß Hau=
+						<lb facs="#facs_84_r1l18" n="N018"/>ſes/ vnd der/ ſo die Zuhörer zuſammen beruffen/ in verhafft genommen/ doch bald
+						<lb facs="#facs_84_r1l19" n="N019"/>wider loß gelaſſen worden/ vnd ſind jetzt dergleichen <hi>Conuenticula</hi> durch ſcharpffe
+						<lb facs="#facs_84_r1l20" n="N020"/><hi>Mandata</hi> auffs new verbotten. </p>
+					<div type="subletter" ana="place:England">
+						<p>
+							<lb facs="#facs_84_r1l21" n="N021"/> Man hat auß <placeName>Engelland</placeName>/ daß es mit der <persName>Königin</persName> beſſer worden/ auch der Un=
+							<lb facs="#facs_84_r1l22" n="N022"/>will zwiſchen ſelbigem <persName>König vnd Franckreich</persName>/ faſt allerdings geſtillt ſeye.</p>
+						<p>
+							<lb facs="#facs_84_r1l23" n="N023"/> Wiewol <persName>Ertzhertzogs Alberti/ etc. Geſandter</persName> in <placeName>Franckreich</placeName> beym <persName>König</persName>/ wegen
+							<lb facs="#facs_84_r1l24" n="N024"/>deß Canals/ ſo man bey <placeName>Greuelingen</placeName> zu graben angefangen/ ſtarck angehalten/ ſoll
+							<lb facs="#facs_84_r1l25" n="N025"/>er doch nichts haben erhalten können/ vnd ſind zu <placeName>Brüſſel</placeName> viel vornemme Herren/
+							<lb facs="#facs_84_r1l26" n="N026"/>mit der in <placeName>Spanien</placeName> vergangener Verenderung nicht wol zu frieden/ vnd möchten
+							<lb facs="#facs_84_r1l27" n="N027"/>deren wol etliche auch nach <placeName>Spanien</placeName> muſſen/ vnd neuwe Rechnung thun. </p>
+					</div>
+					<div type="letter" ana="date:1618-12-25 place:Amsterdam">
+						<head rendition="#c #b">
+							<lb facs="#facs_84_r1l28" n="N028"/>Auß <placeName>Ambsterdam</placeName> vom 25. Ditto.</head>
+						<div type="subletter" ana="place:Koppenhagen">
+							<p>
+								<lb facs="#facs_84_r1l29" n="N029"/>Auß <placeName>Koppenhagen</placeName> wirt vom 5. diß gemelt/ daß es der enden alles ſtill vnd fried=
+								<lb facs="#facs_84_r1l30" n="N030"/>lich ſey/ die jenige Schiff/ ſo der <persName>König in Dennemarck</persName> in die <placeName>OſtJndien</placeName> außgerü=
+								<lb facs="#facs_84_r1l31" n="N031"/>ſtet/ ſind zwar abgelauffen/ habẽ aber wegen Contrari Winds/ wider zurück kehren
+								<lb facs="#facs_84_r1l32" n="N032"/>müſſen/ erwarten jetzt beſſer Wetter/ So dieſe Fahrt wol abgehet/ wird es dem gan=
+								<lb facs="#facs_84_r1l33" n="N033"/>tzen Land groſſen Nutzen ſchaffen. </p>
+						</div>
+						<div type="subletter" ana="place:Stockholm">
+							<p> Vnd hat man auß <placeName>Stockholm</placeName>/ daß zwiſchen
+								<lb facs="#facs_84_r1l34" n="N034"/>beyden Cronen/ Poln vnd Schweden/ in <placeName>Liffland</placeName>/ von beiderſeits Commiſſarien
+								<lb facs="#facs_84_r1l35" n="N035"/>ein ſtillſtandt getroffen worden/ vnd machte man gute Præparation/ die 4. vñ letzte
+								<lb facs="#facs_84_r1l36" n="N036"/>Penſion dẽ <persName>König in Dennemarck</persName>/ vor die <placeName>Veſtung Elßburg</placeName>/ welche ein zeitlang
+								<lb facs="#facs_84_r1l37" n="N037"/>vnter jm geweſen/ zu erlegen/ vnd alſo wider an die Schwediſche Cron zu bringen. </p>
+						</div>
+					</div>
+					<div type="letter" ana="date:1618-12-25 place:Köln">
+						<head rendition="#c #b">
+							<lb facs="#facs_84_r1l38" n="N038"/>Auß <placeName>Cölln</placeName> vom letzten Ditto.</head>
+						<p>
+							<lb facs="#facs_84_r1l39" n="N039"/>Jre <persName>Churf. D. etc. zu Cölln</persName>/ haben jren eynritt zu <placeName>Paderborn</placeName>/ mit in 700. Pfer=
+							<lb facs="#facs_84_r1l40" n="N040"/>den/ darunter viel Herren vnd Prælaten <hi>ſolenniter</hi> gehalten/ hat ſo wol dz Stifft
+							<lb facs="#facs_84_r1l41" n="N041"/>als die Statt <persName>S. Churf. D. etc.</persName> gehuldiget/ auch alles wol abgangen. </p>
+						<div type="subletter" ana="place:Münster">
+							<p>
+								<lb facs="#facs_84_r1l42" n="N042"/> Jetzt hat man von <placeName>Münſter</placeName>/ daß die Statt Embden <persName>jhren eigenen Herrn/ den
+								<lb facs="#facs_84_r1l43" n="N043"/>Graffen/ etc.</persName> wegen jhnen etliche verſprochene Sachen nicht gehalten worden/ ge=
+								<lb facs="#facs_84_r1l44" n="N044"/>fänglich angenommen haben. </p>
+						</div>
+					</div>
+					<closer>
+						<lb facs="#facs_84_r1l45" n="N045"/>
+						<hi rendition="#c #b #g">ENDE.</hi>
+					</closer>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
