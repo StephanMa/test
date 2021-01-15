@@ -9,8 +9,14 @@
     </div>
     <script src="https://stephanma.github.io/test/public/scripts/CETEI.js"></script>
     <script>
-var CETEIcean = new CETEI();
+      //get url from params
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      var url = urlParams.get("url");
+      var CETEIcean = new CETEI();
+
       var images = [];
+
       CETEIcean.addBehaviors({"tei":
         {
           "gap": ["[", "]"],
@@ -44,7 +50,7 @@ var CETEIcean = new CETEI();
             return span;
           }
         }});
-      CETEIcean.getHTML5('https://raw.githubusercontent.com/StephanMa/test/master/public/data/postzeitung_11_1632.xml', function(data) {
+      CETEIcean.getHTML5(url, function(data) {
         document.getElementById("TEI").innerHTML = "";
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);
