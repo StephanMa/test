@@ -153,7 +153,7 @@
 	</teiHeader>  
 	<facsimile xml:id='facs_5'>
 		<surface ulx='0' uly='0' lrx='1376' lry='2122'>
-			<graphic url='936807.jpg' width='1376px' height='2122px'/>
+			<graphic url='https://brema.suub.uni-bremen.de/i3f/v20/936807/full/0/0/default.jpg' width='1376px' height='2122px'/>
 			<zone points='0,31 0,2121 1374,2121 1374,31' rendition='TextRegion' xml:id='facs_5_r1'>
 				<zone points='648,75 656,76 660,72 665,74 674,66 689,72 697,68 706,70 731,66 733,19 719,20 706,16 690,31 677,19 668,18 660,25 649,25' rendition='Line' xml:id='facs_5_r1l1'/>
 				<zone points='306,161 985,160 985,117 947,94 924,113 719,96 683,122 517,117 466,94 306,100' rendition='Line' xml:id='facs_5_r1l2'/>
@@ -211,7 +211,7 @@
 	</facsimile>
 	<facsimile xml:id='facs_6'>
 		<surface ulx='0' uly='0' lrx='1405' lry='2141'>
-			<graphic url='936808.jpg' width='1405px' height='2141px'/>
+			<graphic url='https://brema.suub.uni-bremen.de/i3f/v20/836808/full/0/0/default.jpg' width='1405px' height='2141px'/>
 			<zone points='21,45 21,2140 1402,2140 1402,45' rendition='TextRegion' xml:id='facs_6_r1'>
 				<zone points='50,79 1387,90 1370,11 1265,42 50,19' rendition='Line' xml:id='facs_6_r1l1'/>
 				<zone points='53,121 1398,135 1398,91 1296,80 53,83' rendition='Line' xml:id='facs_6_r1l2'/>
@@ -282,7 +282,7 @@
 	</facsimile>
 	<facsimile xml:id='facs_7'>
 		<surface ulx='0' uly='0' lrx='1417' lry='2140'>
-			<graphic url='936809.jpg' width='1417px' height='2140px'/>
+			<graphic url='https://brema.suub.uni-bremen.de/i3f/v20/836809/full/0/0/default.jpg' width='1417px' height='2140px'/>
 			<zone points='0,27 0,2133 1381,2133 1381,27' rendition='TextRegion' xml:id='facs_7_r1'>
 				<zone points='86,88 1380,71 1389,10 85,35' rendition='Line' xml:id='facs_7_r1l1'/>
 				<zone points='38,132 1389,114 1358,62 37,73' rendition='Line' xml:id='facs_7_r1l2'/>
@@ -335,7 +335,7 @@
 	</facsimile>
 	<facsimile xml:id='facs_8'>
 		<surface ulx='0' uly='0' lrx='1452' lry='2146'>
-			<graphic url='936810.jpg' width='1452px' height='2146px'/>
+			<graphic url='https://brema.suub.uni-bremen.de/i3f/v20/836810/full/0/0/default.jpg' width='1452px' height='2146px'/>
 			<zone points='63,45 63,2145 1419,2145 1419,45' rendition='TextRegion' xml:id='facs_8_r1'>
 				<zone points='88,75 1408,82 1408,22 1330,11 89,22' rendition='Line' xml:id='facs_8_r1l1'/>
 				<zone points='54,123 98,142 140,125 230,122 288,139 305,125 382,125 397,138 519,124 519,91 437,76 285,90 255,76 210,89 54,82' rendition='Line' xml:id='facs_8_r1l2'/>
@@ -399,7 +399,7 @@
 				<lb facs='#facs_5_r1l5' n='N005'/>eynquartiert worden/ vmb gegen den Frühling auff der Armada zu gebrau-
 				<lb facs='#facs_5_r1l6' n='N006'/>chen/ in selbiger Statt were der <persName><hi rendition='#aq'>Comito Reale</hi></persName> vber den Frantzösischen Galeren
 				<lb facs='#facs_5_r1l7' n='N007'/>vnbekennter angelangt/ mit deme der <persName><hi>Vice Re</hi></persName> vnd <persName><hi>Marchese S. Croce,</hi></persName> wegen der
-				<lb facs='#facs_5_r1l8' n='N008'/>Meer Armada/ tractirt/ gedachter <persName>Marchese</persName> hat dẽ <persName>Cauallier Olista von Ragust</persName>
+				<lb facs='#facs_5_r1l8' n='N008'/>Meer Armada/ tractirt/ gedachter <persName>Marchese</persName> hat dẽ <persName>Cauallier Olista von Ragust</persName>
 				<lb facs='#facs_5_r1l9' n='N009'/>befohlen/ noch 7. Galeonen zu verordnen/ <persName>S. Exc.</persName> wollen/ dz <placeName>Neapoli</placeName> 25. ausser deß
 				<lb facs='#facs_5_r1l10' n='N010'/><persName><hi>Vice Re 18.</hi></persName> Galeren/ vnnd auch 20. kleine Galeren hergeben solle/ welche zugleich
 				<lb facs='#facs_5_r1l11' n='N011'/>mit 10. von <placeName>Sicilia</placeName>/ 5. von <placeName>Malta</placeName>/ 16. deß Doria/ vnd der Squadra von <placeName>Genua</placeName>/
@@ -451,7 +451,7 @@
 			<pb facs='#facs_6' n='6'/>
 		
 				<lb facs='#facs_6_r1l1' n='N001'/>zu/ die Berge zerschlagen/ vnd Strassen gemacht werden/ damit man alle Kauff=
-				<lb facs='#facs_6_r1l2' n='N002'/>mannſchafft nach <placeName><hi>S. Martino Langosco</hi></placeName>, biß zu <placeName>Caneo</placeName> /auff Karren führẽ könne/
+				<lb facs='#facs_6_r1l2' n='N002'/>mannſchafft nach <placeName><hi>S. Martino Langosco</hi></placeName>, biß zu <placeName>Caneo</placeName> /auff Karren führẽ könne/
 				<lb facs='#facs_6_r1l3' n='N003'/>Man ist auch im werck/ von <placeName>Caneo</placeName> biß an Fluß Po/ eine Schifffahrt anzurichten/
 				<lb facs='#facs_6_r1l4' n='N004'/>alle Kauffmannswahren/ welche auß dem Meer in den Po kommen/ durch ganz
 				<lb facs='#facs_6_r1l5' n='N005'/><placeName>Lombardia</placeName>/ vnd biß in <placeName>Venedig</placeName> zu führen.</p>
@@ -479,7 +479,7 @@
 				<lb facs='#facs_6_r1l18' n='N018'/>nition von Pulffer/ vnd dergleichen/ zur Artellerey gehörig/ auch etliche Stück an=
 				<lb facs='#facs_6_r1l19' n='N019'/>kommen/ wie man sagt/ sind sie willens mit dem ehisten Crembs vnd Stein sich zu
 				<lb facs='#facs_6_r1l20' n='N020'/>bemächtigen/ vnd zween Wege zu nemmen/ der eine theil nach <placeName>Weydhofen</placeName>/ <placeName>Horn</placeName>/
-				<lb facs='#facs_6_r1l21' n='N021'/><placeName>Heydersdorff</placeName>/ <placeName>Loyß</placeName>/ vnd den andern von <placeName>Zwethal</placeName> hiehero/ vñ nach Crembs/ wenn
+				<lb facs='#facs_6_r1l21' n='N021'/><placeName>Heydersdorff</placeName>/ <placeName>Loyß</placeName>/ vnd den andern von <placeName>Zwethal</placeName> hiehero/ vñ nach Crembs/ wenn
 				<lb facs='#facs_6_r1l22' n='N022'/>sie nur zusehen/ vnd kein Widerstandt thun/ dörfft jre Reise wol von statten gehen.</p>
 				<p>
 				<lb facs='#facs_6_r1l23' n='N023'/><persName>	Herr Graff Tampier</persName> hat sich mit seinen Reutern nach <placeName>Loyß</placeName> begeben/ vnnd soll
@@ -494,7 +494,7 @@
 				<head><lb facs='#facs_6_r1l29' n='N029'/><hi rendition='#c #b'>Auß <placeName>Wien</placeName> vom 3. Ditto.</hi></head><p>
 				<lb facs='#facs_6_r1l30' n='N030'/>	Der <persName>Cardinal von Dietrichſtein</persName> iſt Sambstag anhero kommen/ hat gestern bey
 				<lb facs='#facs_6_r1l31' n='N031'/>den Jesuitern geprediget/ darbey sich <persName>der König</persName> auch finden lassen/ vnd ist heut mit
-				<lb facs='#facs_6_r1l32' n='N032'/>gutẽ Keys. Brieffen wider nacher <placeName>Mährern</placeName> zu/ auff den Lantag/ welcher Sontag
+				<lb facs='#facs_6_r1l32' n='N032'/>gutẽ Keys. Brieffen wider nacher <placeName>Mährern</placeName> zu/ auff den Lantag/ welcher Sontag
 				<lb facs='#facs_6_r1l33' n='N033'/>zu <placeName>Olmitz</placeName> seinen anfang nimpt/ verreiset/ Man wirdt in kurtzen erfahren/ ob die
 				<lb facs='#facs_6_r1l34' n='N034'/>Mährer bey jrer Maj. halten/ oder zu den Böhmen tretten werden.</p>
 			<div type="subletter">
@@ -531,13 +531,13 @@
 				<lb facs='#facs_7_r1l11' n='N011'/>	Die Ertzh. Maximiliani/ etc. Begräbnuß zu <placeName>Ynßbrug</placeName> ist wol abgangen/ vnnd
 				<lb facs='#facs_7_r1l12' n='N012'/>reisen heut Ertzher. Leopold/ etc. wider nach <placeName>Elsas</placeName>/ Carolus aber nach <placeName>Mergent</placeName>.
 								<lb facs='#facs_7_r1l13' n='N013'/>heimb/ den Teutschen Orden anzunemmen.</p><p>
-				<lb facs='#facs_7_r1l14' n='N014'/><persName>	Der Hertzog in Beyern</persName> hat auff anhaltẽ deß Capittels vnd Raths zu <placeName>Paſſaw</placeName>/
+				<lb facs='#facs_7_r1l14' n='N014'/><persName>	Der Hertzog in Beyern</persName> hat auff anhaltẽ deß Capittels vnd Raths zu <placeName>Paſſaw</placeName>/
 				<lb facs='#facs_7_r1l15' n='N015'/>nit allein als Creyßoberſter/ dieſelbe Statt/ ſondern auch das Schloſſz/ mit Volck
 				<lb facs='#facs_7_r1l16' n='N016'/>beſetzt/ dann es ein ſtarcker Paſſz auß Böheimb./ auch wegen 3. daſelbſt zuſammen
 									<lb facs='#facs_7_r1l17' n='N017'/>flieſenden Wassern / wol zu verwahren ist.</p><p>
 				<lb facs='#facs_7_r1l18' n='N018'/>	<persName>Jre Keyſ. Maj.</persName> ſind eine zeithero ſehr vnpäßlich geweſen/ haben von dem Ma=
 				<lb facs='#facs_7_r1l19' n='N019'/>genwehe nichts guts zu erwarten/ vnnd geſtern auffs new purgiertſ/ darauff es ſich
-										<lb facs='#facs_7_r1l20' n='N020'/>zwar zur beſſerung angelaſſen/ können aber von Eſſen vnd Trinckẽ nichts behalten.</p><p>
+										<lb facs='#facs_7_r1l20' n='N020'/>zwar zur beſſerung angelaſſen/ können aber von Eſſen vnd Trinckẽ nichts behalten.</p><p>
 				<lb facs='#facs_7_r1l21' n='N021'/> 	Die Böhmen haben in Oeſterreich wider 2. ſchöne Clöſter eyngenommen/ man
 				<lb facs='#facs_7_r1l22' n='N022'/>ist wegen der<hi rendition='#aq'> suspensio armorum</hi> mit jhnen in Tractation/ nach welchem man zu
 				<lb facs='#facs_7_r1l23' n='N023'/>der Jnterpoſition wirdt ſchreitten.</p></div>
@@ -550,8 +550,8 @@
 				<lb facs='#facs_7_r1l26' n='N026'/>den ſich noch allhie/ vnd erwarten die Herren Ständ von den Herren Generaln ſo
 				<lb facs='#facs_7_r1l27' n='N027'/>wol/ als auch von den Herrn Ständen in Schleſien/ vnd andern orten/ dahin ſie
 				<lb facs='#facs_7_r1l28' n='N028'/>diese Werbung communicirt gutachten täglich/ alsdann werden ſie ſich zu reſol=
-				<lb facs='#facs_7_r1l29' n='N029'/>uiren wissen/ Interim haben die <hi rendition='#aq'>Directores</hi> deßwegẽ alle Ständ deß Königreichs
-				<lb facs='#facs_7_r1l30' n='N030'/>Böhmen hieher beschrieben/ was zu thun vnd zu laſſen/ zu erwegen/ vñ jrer Churf.
+				<lb facs='#facs_7_r1l29' n='N029'/>uiren wissen/ Interim haben die <hi rendition='#aq'>Directores</hi> deßwegẽ alle Ständ deß Königreichs
+				<lb facs='#facs_7_r1l30' n='N030'/>Böhmen hieher beschrieben/ was zu thun vnd zu laſſen/ zu erwegen/ vñ jrer Churf.
 				<lb facs='#facs_7_r1l31' n='N031'/>Gn. zu Sachsen zu zuſchreiben: Man diſcurriert/ daß der den 20. diß angeſtellte
 				<lb facs='#facs_7_r1l32' n='N032'/>Conuentstag ſchwerlich ſeinen Effect erreichen werde.</p>
 				<p>
@@ -609,7 +609,7 @@
 				<lb facs='#facs_8_r1l29' n='N029'/>gewandt gefunden/ welches weggetragen: Vnd weil ſich der Haußherr dargegen
 				<lb facs='#facs_8_r1l30' n='N030'/>ſetzen wollen/ er gefänglich angenommen worden. 	Vor wenig tagen iſt in See=
 				<lb facs='#facs_8_r1l31' n='N031'/>land ein groß JachtSchiff auß <placeName>OstJndien</placeName> ankom̃en/ von 160. Laſt/ gehört hieher/
-				<lb facs='#facs_8_r1l32' n='N032'/>vñ iſt der grosse Bern genannt/ bringt vnter andern 900. Seck mit Pfeffer/ ſo ſind
+				<lb facs='#facs_8_r1l32' n='N032'/>vñ iſt der grosse Bern genannt/ bringt vnter andern 900. Seck mit Pfeffer/ ſo ſind
 				<lb facs='#facs_8_r1l33' n='N033'/>allhie etliche wolgeladene Schiff auß <placeName>Spania</placeName> angelangt.
 				</p>
 			</div>
@@ -622,8 +622,8 @@
 				<lb facs='#facs_8_r1l39' n='N039'/><hi rendition='#aq'>ledo</hi></persName> ſtatt kommen/ dan ſelbiges Ertzbistumb 200000. Ducaten eynkommens hat.
 			</p>
 			<div type="subletter" ana="place:Paris">
-				<p><lb facs='#facs_8_r1l40' n='N040'/>	Auß <placeName>Franckreich</placeName> wirt bericht/ weil die von Bearn nit pariren wollẽ/ ſey <persName>der Kö=
-				<lb facs='#facs_8_r1l41' n='N041'/>nig</persName> willens/ 10000. Mann zu Fuß/ vñ etliche Reuter zu werbe/ dieſelbe mit gewalt
+				<p><lb facs='#facs_8_r1l40' n='N040'/>	Auß <placeName>Franckreich</placeName> wirt bericht/ weil die von Bearn nit pariren wollẽ/ ſey <persName>der Kö=
+				<lb facs='#facs_8_r1l41' n='N041'/>nig</persName> willens/ 10000. Mann zu Fuß/ vñ etliche Reuter zu werbe/ dieſelbe mit gewalt
 				<lb facs='#facs_8_r1l42' n='N042'/>zu bezwingen/ Hingegen sind die Bearner reſoluirt/ jr euſſerſtes dran zu ſetzen/ vnd
 				<lb facs='#facs_8_r1l43' n='N043'/>wollen die geiſtliche Güter/ ſo jnen von vorigen Königen innen haben/ auffs beſt sie
 				<lb facs='#facs_8_r1l44' n='N044'/>können/ manuteniren.</p>	<closer><hi rendition='#g'>ENDE</hi></closer>
